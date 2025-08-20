@@ -180,8 +180,7 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 ---
 
 ## ⚠️ Limitations
-
-- **Data quality**: The dataset is from Kaggle and may not fully match the business’s real customers. Actual company data might have different behaviors.  
+ 
 - **Precision trade-off**: Logistic Regression predicts many abandonments correctly, but also flags many false positives. Some customers may get unnecessary reminders.  
 - **Single session focus**: The model only uses current session data. It does not yet consider past purchase history, loyalty, or customer lifetime value.  
 - **Static modeling**: Customer behavior changes over time. A model trained once may not stay accurate unless it is **retrained regularly**.  
@@ -190,12 +189,11 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 
 ## 🚀 Future Work
 
-1. **Use company’s real data**: Train the model on actual customer sessions to better reflect real-world shopping behavior.  
-2. **Improve features**: Add more signals like browsing time, number of items in cart, time of day, and past purchase frequency.  
-3. **Cost-sensitive learning**: Build models that consider the cost of false positives vs. false negatives so the business impact is balanced.  
-4. **A/B testing**: Deploy the model and run controlled experiments to measure how many extra sales reminders actually save.  
-5. **Personalized incentives**: Move beyond “send reminder” → predict which type of nudge (discount, free shipping, email, SMS) works best for each customer.  
-6. **Online learning**: Continuously retrain the model as new sessions come in, so the system adapts to changes in customer habits.  
+1. **Improve features**: Add more signals like browsing time, number of items in cart, time of day, and past purchase frequency.  
+2. **Cost-sensitive learning**: Build models that consider the cost of false positives vs. false negatives so the business impact is balanced.  
+3. **A/B testing**: Deploy the model and run controlled experiments to measure how many extra sales reminders actually save.  
+4. **Personalized incentives**: Move beyond “send reminder” → predict which type of nudge (discount, free shipping, email, SMS) works best for each customer.  
+5. **Online learning**: Continuously retrain the model as new sessions come in, so the system adapts to changes in customer habits.  
 
 ---
 
@@ -205,7 +203,7 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 This project demonstrates the power of machine learning in addressing a key e-commerce challenge: **predicting and reducing cart abandonment**.  
 By selecting Logistic Regression as the primary model, the solution ensures that at-risk customers are accurately identified, enabling timely interventions to recover potential lost sales.  
 
-I am committed to applying **data-driven insights** to solve real business problems and create measurable value. My focus is on **e-commerce, customer analytics, and predictive modeling**, where data science can directly impact revenue growth and customer retention.  
+I am committed to applying **data-driven insights** to solve real business problems and create measurable value, where data science can directly impact revenue growth and customer retention.  
 
 I am open to exploring **full-time opportunities** where I can contribute to business strategy through analytics, as well as **freelance collaborations** with organizations seeking to leverage data for smarter decision-making.  
 
