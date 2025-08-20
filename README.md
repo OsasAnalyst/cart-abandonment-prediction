@@ -117,8 +117,6 @@ Create a `/figures/` folder in the repo and upload the PNGs. Reference them belo
 
 ---
 
-## 🧩 Feature Engineering & Preprocessing (Pipeline — description)
-
 ## 🧩 Feature Engineering & Preprocessing
 
 In this stage, I transformed the raw dataset into a clean, machine-learning-ready format.  
@@ -142,23 +140,78 @@ These were combined into a `ColumnTransformer` so the same preprocessing could b
 
 Finally, I validated that the transformation expanded categorical features into multiple binary columns, giving me a larger, model-ready feature space. This design guarantees consistency, explainability, and portability when deploying the model in real e-commerce environments.
 
+---
+
+## 🤖 Modelling & Model Selection
+
+### 🎯 Objective  
+Predict whether a customer will **abandon their cart**.  
+- **Primary metric:** Recall (catch as many abandoners as possible).  
+- **Secondary metrics:** Precision, F1-score, Accuracy.  
 
 ---
 
-## ✅ Operational & deployment notes
-- **Persist artifacts:** save the fitted `preprocessor`, the computed `high_value_threshold` (train quantile), and `encoded_feature_names` for consistent preprocessing in production.  
-- **Validation:** always apply the same preprocessing and `high_value_threshold` to validation and test sets (and to live traffic).  
-- **Robustness:** One-Hot encoding must use `handle_unknown='ignore'` so that new cities/categories do not break the pipeline.  
-- **Monitoring:** track distribution drift on `price`, `category`, and `device_type` to catch business changes (e.g., new product lines or marketing shifts).
+### 📊 Model Results (Validation)  
+- **Logistic Regression** → Recall = **1.0**, Precision = **0.50**  
+- **SVM** → Recall = **0.71**, Precision = **0.51**  
+- **Random Forest / Gradient Boosting** → Recall ≈ **0.55–0.60** (weaker)  
+- **Neural Network** → Recall = **0.44** (discarded)  
 
 ---
 
-## Next modeling steps (after preprocessing)
-1. Train baseline models on prepared arrays (Logistic Regression, SVM, Random Forest, Gradient Boosting).  
-2. Tune hyperparameters on the validation set, prioritizing **recall** (business goal is to catch abandoners).  
-3. Evaluate chosen model(s) on the held-out test set and produce final metrics, confusion matrix, and ROC-AUC.  
-4. Add final model artifact + scoring script and example inference on a saved sample row.
+### 📌 Key Insights  
+- **Logistic Regression**: Perfect recall → captures **all abandoners**, but sends reminders to many non-abandoners too.  
+- **SVM**: Strong balance → catches **~71% abandoners** with fewer false positives.  
+- **Business takeaway**:  
+  - If reminder campaigns are **low cost**, use **Logistic Regression**.  
+  - If campaigns have **higher cost**, use **SVM** for efficiency.  
+
+
+## ✅ Recommendation
+
+Based on the results, **Logistic Regression** is the best choice for deployment.  
+It achieved a **recall of 1.0**, meaning it caught **all customers likely to abandon** their carts.  
+This is critical because the business goal is to **reduce lost sales**.  
+
+Even though precision is only ~0.50 (meaning some customers who would not abandon will still get reminders), this is acceptable since sending a reminder email or small discount is **low cost** compared to losing a customer.  
+
+👉 **Recommendation**: Deploy the **Logistic Regression model** for real-time predictions. Use it to trigger reminder campaigns or small incentives whenever the model predicts a customer may abandon their cart.  
+Keep the **SVM model** as a backup option if the business later decides to reduce the number of reminder campaigns and prefers a more balanced trade-off.  
 
 ---
 
+## ⚠️ Limitations
+
+- **Data quality**: The dataset is from Kaggle and may not fully match the business’s real customers. Actual company data might have different behaviors.  
+- **Precision trade-off**: Logistic Regression predicts many abandonments correctly, but also flags many false positives. Some customers may get unnecessary reminders.  
+- **Single session focus**: The model only uses current session data. It does not yet consider past purchase history, loyalty, or customer lifetime value.  
+- **Static modeling**: Customer behavior changes over time. A model trained once may not stay accurate unless it is **retrained regularly**.  
+
+---
+
+## 🚀 Future Work
+
+1. **Use company’s real data**: Train the model on actual customer sessions to better reflect real-world shopping behavior.  
+2. **Improve features**: Add more signals like browsing time, number of items in cart, time of day, and past purchase frequency.  
+3. **Cost-sensitive learning**: Build models that consider the cost of false positives vs. false negatives so the business impact is balanced.  
+4. **A/B testing**: Deploy the model and run controlled experiments to measure how many extra sales reminders actually save.  
+5. **Personalized incentives**: Move beyond “send reminder” → predict which type of nudge (discount, free shipping, email, SMS) works best for each customer.  
+6. **Online learning**: Continuously retrain the model as new sessions come in, so the system adapts to changes in customer habits.  
+
+---
+
+
+## 🏁 Closing Remark  
+
+This project demonstrates the power of machine learning in addressing a key e-commerce challenge: **predicting and reducing cart abandonment**.  
+By selecting Logistic Regression as the primary model, the solution ensures that at-risk customers are accurately identified, enabling timely interventions to recover potential lost sales.  
+
+I am committed to applying **data-driven insights** to solve real business problems and create measurable value. My focus is on **e-commerce, customer analytics, and predictive modeling**, where data science can directly impact revenue growth and customer retention.  
+
+I am open to exploring **full-time opportunities** where I can contribute to business strategy through analytics, as well as **freelance collaborations** with organizations seeking to leverage data for smarter decision-making.  
+
+📩 **Email**: oidiagbonmwen@gmail.com  
+🔗 **LinkedIn**: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339/)  
+
+✨ *I help businesses turn data into growth.*  
 
