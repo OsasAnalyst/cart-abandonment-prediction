@@ -75,7 +75,8 @@ By analyzing these behavioral and demographic signals, the model can help identi
 ### Key EDA visualizations 
 
 - Gender distribution  
-![Gender distribution](<img width="571" height="448" alt="Customer gender distribution(Train set)" src="https://github.com/user-attachments/assets/e1c3de46-57e9-40e3-8cfe-181ea7a84bc6" />)
+![Customer gender distribution (Train set)](https://github.com/user-attachments/assets/e1c3de46-57e9-40e3-8cfe-181ea7a84bc6)
+
   
   *Finding:* roughly equal representation male / female in train set.
 
