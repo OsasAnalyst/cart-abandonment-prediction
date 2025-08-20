@@ -81,37 +81,38 @@ By analyzing these behavioral and demographic signals, the model can help identi
   *Finding:* roughly equal representation male / female in train set.
 
 - Age distribution  
-![Age distribution](<img width="562" height="449" alt="Age distribution of customers(train set)" src="https://github.com/user-attachments/assets/cd6bf9ff-83cd-42f3-a20d-b4ea8b17fac1" />)
+![Age distribution (Train set)](https://github.com/user-attachments/assets/cd6bf9ff-83cd-42f3-a20d-b4ea8b17fac1)  
     
   *Finding:* fairly balanced ages with a peak ~40 years.
 
 - Device type counts  
-![Device type counts](<img width="591" height="448" alt="Device type usage(Train set)" src="https://github.com/user-attachments/assets/49281cc6-add7-431b-a8c2-ea58cd6a2a49" />)
+![Device type usage (Train set)](https://github.com/user-attachments/assets/49281cc6-add7-431b-a8c2-ea58cd6a2a49)  
     
   *Finding:* tablets most common → then mobile → then desktop.
 
 - Top product categories  
-  ![Top categories](<img width="685" height="446" alt="Top product category(Train set)" src="https://github.com/user-attachments/assets/acbb6ef9-e931-4774-97de-51c1ea65425f" />)
+![Top product categories (Train set)](https://github.com/user-attachments/assets/acbb6ef9-e931-4774-97de-51c1ea65425f)  
    
   *Finding:* Electronics top; then Home & Kitchen, Sports & Outdoors, Apparel, Beauty & Personal Care.
 
 - Price distribution  
-  ![Price distribution](<img width="560" height="445" alt="Product Price distribution(Train set)" src="https://github.com/user-attachments/assets/fd8a2947-1daa-4a77-ba5b-4b61856d96e2" />)
+![Product Price distribution (Train set)](https://github.com/user-attachments/assets/fd8a2947-1daa-4a77-ba5b-4b61856d96e2)  
    
   *Finding:* notable mass around ~800–1,200.
 
 - Abandonment distribution (class balance)  
-  ![Abandonment distribution](<img width="572" height="447" alt="Cart abandonment (Train set)" src="https://github.com/user-attachments/assets/4e420eb3-484d-47c0-8b2e-76a083e1e2f3" />)
+![Cart abandonment (Train set)](https://github.com/user-attachments/assets/4e420eb3-484d-47c0-8b2e-76a083e1e2f3)  
    
   *Finding:* target is **balanced** — ~50.46% abandoned / 49.54% not abandoned.
 
 - Correlation heatmap (numeric)  
-  ![Correlation heatmap](<img width="677" height="505" alt="Correlation heatmap(train set)" src="https://github.com/user-attachments/assets/98fefe7d-cd7a-4832-bf12-093d5379710a" />)
+![Correlation heatmap (Train set)](https://github.com/user-attachments/assets/98fefe7d-cd7a-4832-bf12-093d5379710a)  
    
   *Key numeric correlations observed in EDA:*  
   - `product_id` vs `price`: **-0.42** (negative correlation)  
   - `price` vs `abandoned`: **~0.0063** (very weak)  
   - `age` vs `abandoned`: **~0.026** (very weak)
+
 
 
 
