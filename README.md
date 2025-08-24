@@ -202,15 +202,12 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 
 ## 🏁 Closing Remark  
 
-This project demonstrates the power of machine learning in addressing a key e-commerce challenge: **predicting and reducing cart abandonment**.  
-By selecting Logistic Regression as the primary model, the solution ensures that at-risk customers are accurately identified, enabling timely interventions to recover potential lost sales.  
+I am passionate about using data to solve real business problems and drive measurable value.  
 
-I am committed to applying **data-driven insights** to solve real business problems and create measurable value, where data science can directly impact revenue growth and customer retention.  
+I am open to exploring full-time opportunities where I can contribute to business strategy through analytics, as well as freelance collaborations with organizations seeking to leverage data for smarter decision-making.
 
-I am open to exploring **full-time opportunities** where I can contribute to business strategy through analytics, as well as **freelance collaborations** with organizations seeking to leverage data for smarter decision-making.  
+---
 
-📩 **Email**: oidiagbonmwen@gmail.com  
-🔗 **LinkedIn**: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339/)  
-
-✨ *I help businesses turn data into growth.*  
+📌 Author: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339)  
+📩 Email: oidiagbonmwen@gmail.com   
 
