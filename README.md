@@ -5,7 +5,7 @@
 
 ---
 
-## 📊 Executive Summary
+## Executive Summary
  
 Cart abandonment is one of the most expensive problems in e-commerce. Customers often add items to their cart but fail to complete the purchase, leading to significant revenue leakage.  
 In this dataset, the **estimated revenue lost from abandoned carts was over 💸 4.3 million ($4,339,429.93)**.  
