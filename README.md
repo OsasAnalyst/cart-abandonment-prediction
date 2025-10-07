@@ -6,19 +6,18 @@
 ---
 
 ## 📊 Executive Summary
-
-### ❌ Problem  
+ 
 Cart abandonment is one of the most expensive problems in e-commerce. Customers often add items to their cart but fail to complete the purchase, leading to significant revenue leakage.  
 In this dataset, the **estimated revenue lost from abandoned carts was over 💸 4.3 million ($4,339,429.93)**.  
 
-### 🛠️ Solution (What I Did)  
+### What I Did  
 To tackle this, I built a **machine learning classification model** to predict the likelihood of cart abandonment.  
 - Used features such as **customer demographics, device type, product category, and session behavior**.  
 - Preprocessed data with scaling, encoding, and pipeline transformations.  
 - Trained and evaluated multiple models (SVM, Logistic Regression).  
 - Success will be measured using accuracy, precision, recall, and F1 score, but recall is most important because we do not want to miss customers who are about to leave.  
 
-### 🏆 Victory (Result)  
+### Result
 After evaluation, **Logistic Regression** was chosen as the final model because it achieved:  
 
 - **Recall = 1.00** → caught **100% of abandoners**.  
@@ -27,12 +26,12 @@ After evaluation, **Logistic Regression** was chosen as the final model because 
 
 SVM provided more balanced results (Recall ~0.73, Precision ~0.51), but missed 28% of abandoners, making it less aligned with the business objective.  
 
-✅ **Business Impact:**  
+**Business Impact:**  
 By identifying abandoning customers before they leave, the company can trigger **personalized reminder emails or discount nudges**, significantly reducing lost revenue.  
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The main objective of this project is to **reduce revenue lost from cart abandonment** by building a predictive model that flags at-risk customers in real time.  
 
@@ -46,7 +45,7 @@ The main objective of this project is to **reduce revenue lost from cart abandon
 ---
 
 
-## 📊 Data Collection
+## Data Collection
 
 For this project, I used a **publicly available cart abandonment dataset from Kaggle**.  
 
@@ -61,7 +60,7 @@ By analyzing these behavioral and demographic signals, the model can help identi
 
 
 
-## 🔍 Exploratory Data Analysis (EDA) 
+## Exploratory Data Analysis (EDA) 
 
 ### Dataset overview (raw tables)
 - **Customer table:** 1,000 rows × 5 columns — no missing values.  
@@ -118,7 +117,7 @@ By analyzing these behavioral and demographic signals, the model can help identi
 
 ---
 
-## 🧩 Feature Engineering & Preprocessing
+##  Feature Engineering & Preprocessing
 
 In this stage, I transformed the raw dataset into a clean, machine-learning-ready format.  
 The main idea was to remove any potential leakage, derive meaningful features, and set up a consistent preprocessing pipeline that can be applied in both training and production.
@@ -152,7 +151,7 @@ Predict whether a customer will **abandon their cart**.
 
 ---
 
-### 📊 Model Results (Validation)  
+### Model Results (Validation)  
 - **Logistic Regression** → Recall = **1.0**, Precision = **0.50**  
 - **SVM** → Recall = **0.71**, Precision = **0.51**  
 - **Random Forest / Gradient Boosting** → Recall ≈ **0.55–0.60** (weaker)  
@@ -160,7 +159,7 @@ Predict whether a customer will **abandon their cart**.
 
 ---
 
-### 📌 Key Insights  
+### Key Insights  
 - **Logistic Regression**: Perfect recall → captures **all abandoners**, but sends reminders to many non-abandoners too.  
 - **SVM**: Strong balance → catches **~71% abandoners** with fewer false positives.  
 - **Business takeaway**:  
@@ -168,7 +167,7 @@ Predict whether a customer will **abandon their cart**.
   - If campaigns have **higher cost**, use **SVM** for efficiency.  
 
 
-## ✅ Recommendation
+## Recommendation
 
 Based on the results, **Logistic Regression** is the best choice for deployment.  
 It achieved a **recall of 1.0**, meaning it caught **all customers likely to abandon** their carts.  
@@ -176,12 +175,12 @@ This is critical because the business goal is to **reduce lost sales**.
 
 Even though precision is only ~0.50 (meaning some customers who would not abandon will still get reminders), this is acceptable since sending a reminder email or small discount is **low cost** compared to losing a customer.  
 
-👉 **Recommendation**: Deploy the **Logistic Regression model** for real-time predictions. Use it to trigger reminder campaigns or small incentives whenever the model predicts a customer may abandon their cart.  
+**Recommendation**: Deploy the **Logistic Regression model** for real-time predictions. Use it to trigger reminder campaigns or small incentives whenever the model predicts a customer may abandon their cart.  
 Keep the **SVM model** as a backup option if the business later decides to reduce the number of reminder campaigns and prefers a more balanced trade-off.  
 
 ---
 
-## ⚠️ Limitations
+## Limitations
  
 - **Precision trade-off**: Logistic Regression predicts many abandonments correctly, but also flags many false positives. Some customers may get unnecessary reminders.  
 - **Single session focus**: The model only uses current session data. It does not yet consider past purchase history, loyalty, or customer lifetime value.  
@@ -189,7 +188,7 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 1. **Improve features**: Add more signals like browsing time, number of items in cart, time of day, and past purchase frequency.  
 2. **Cost-sensitive learning**: Build models that consider the cost of false positives vs. false negatives so the business impact is balanced.  
@@ -200,14 +199,13 @@ Keep the **SVM model** as a backup option if the business later decides to reduc
 ---
 
 
-## 🏁 Closing Remark  
+## Closing Remark  
 
 I am passionate about using data to solve real business problems and drive measurable value.  
 
 I am open to exploring full-time opportunities where I can contribute to business strategy through analytics, as well as freelance collaborations with organizations seeking to leverage data for smarter decision-making.
 
 ---
-
-📌 Author: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339)  
+ Author: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339)  
 📩 Email: oidiagbonmwen@gmail.com   
 
