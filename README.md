@@ -1,17 +1,16 @@
-```markdown
-# 🛒 Churn Abandonment Analysis
+# 🛒 Cart Abandonment Prediction
 
-## 🧭 Project Overview  
-Online stores lose a large share of potential revenue because many shoppers add products to their carts but never complete their purchases. This project focuses on predicting **cart abandonment** and identifying the main reasons behind it. Using machine learning and behavioral analytics, the model helps businesses take action before a customer leaves — improving engagement and saving sales that would otherwise be lost.  
+## Project Overview  
+Online stores lose a large share of potential revenue because many shoppers add products to their carts but never complete their purchases. This project focuses on predicting **cart abandonment** and identifying the main reasons behind it. Using machine learning and behavioral analytics, the model helps businesses take action before a customer leaves which will improve engagement and save sales that would otherwise be lost.  
 
 The analysis was powered by **Python, scikit-learn, SQL (SQLite)**, and **Power BI** for visualization. Together, they form an end-to-end workflow from raw data to actionable business insight.  
 
-![Dashboard Overview](path-to-dashboard-image.png)
+![Dashboard Overview](https://github.com/user-attachments/assets/77202514-67f3-4761-b42b-09d8ed8d38d3)
 
 ---
 
-## 🏁 Executive Summary  
-This project analyzed a **sample of 750 transactions** from an e-commerce environment to predict whether customers would complete or abandon their carts. The goal was to understand the **drivers of abandonment**, optimize user experience, and help marketing teams act proactively instead of reacting after the fact.
+## Executive Summary  
+This project analyzed a dataset of **5,000 e-commerce transactions**, with insights drawn from a **test sample of 750 sessions** used to validate the model’s performance. The goal was to understand the **drivers of abandonment**, optimize user experience, and help marketing teams act proactively instead of reacting after the fact.
 
 The **SVM model** achieved a recall of **0.72**, meaning it successfully identified most customers likely to abandon their carts, even if it slightly over-predicted risk. Precision and accuracy were moderate (around 0.51), which is acceptable given the business goal — it’s better to reach more potential abandoners than to miss them.
 
@@ -25,7 +24,7 @@ These findings form the foundation for focused retention campaigns, mobile exper
 
 ---
 
-## 💡 Data Overview  
+## Data Overview  
 The dataset simulates real e-commerce shopping behavior and was structured into five main tables: **Customer**, **Product**, **Device**, **Date**, and **Fact**.  
 
 After merging these tables into a unified dataset, preprocessing steps included:
@@ -38,7 +37,7 @@ This produced a clean, model-ready dataset that reflects genuine behavioral tren
 
 ---
 
-## ⚙️ Workflow Overview  
+## Workflow Overview  
 The full workflow was designed as an **end-to-end system**, combining automation, analytics, and visualization.  
 
 1. **Data Preparation** — Integrated and cleaned multi-table data.  
@@ -58,7 +57,7 @@ The recall-oriented focus makes the model effective as an early warning system f
 
 ---
 
-## 📊 Business Implications and Strategic Recommendations  
+## Business Implications and Strategic Recommendations  
 
 | **Strategy** | **Expected Impact** | **Metric to Track** |
 |---------------|--------------------|---------------------|
@@ -71,7 +70,7 @@ These recommendations move the organization toward proactive, data-led decision-
 
 ---
 
-## 🚀 Path Forward  
+## Path Forward  
 The next step is to integrate predictions directly into **marketing automation systems**, so real-time sessions can trigger immediate actions like reminders or discount prompts.  
 
 Future improvements could include:
@@ -127,4 +126,3 @@ As the system matures, it can become part of a live decision-support engine — 
 📧 **Email:** oidiagbonmwen@gmail.com  
 💻 **GitHub:** [OsasAnalyst](https://github.com/OsasAnalyst)  
 📂 **Project Repository:** [Churn Abandonment Analysis](https://github.com/OsasAnalyst/cart-abandonment-prediction)
-```
