@@ -97,7 +97,7 @@ As the system matures, it can become part of a live decision-support engine - co
 ├── powerbi_dashboard/
 │   ├── dashboard.pbix
 │   ├── dashboard_screenshot.png
-│   └── dax_measures.txt
+│   └── dax_measures.docx
 │
 ├── models/
 │   ├── svm_model.pkl
