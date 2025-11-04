@@ -1,0 +1,751 @@
+age,quantity,log_price,is_high_value,gender,city,category,device_type,os,day_of_week,month,actual_class,predicted_class,abandonment_risk
+20,5,7.172532015712284,1,Male,Mumbai,Apparel,Desktop,iOS,3,2,0,0,0.5162951300364803
+56,5,7.280449230759757,1,Female,New York,Home & Kitchen,Tablet,iOS,6,12,0,0,0.5363224202432105
+48,1,6.466051407286527,0,Male,London,Electronics,Tablet,iOS,2,8,1,1,0.5
+35,3,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Mobile,Android,3,11,1,1,0.5
+59,4,5.658471251946198,0,Female,Mumbai,Sports & Outdoors,Mobile,Windows,4,3,0,0,0.5199622466621285
+19,4,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,5,12,0,0,0.5104206028050259
+61,5,5.954385538866561,0,Female,Mumbai,Sports & Outdoors,Desktop,iOS,5,5,1,1,0.4677971890079661
+56,2,7.2275826117324,0,Female,London,Beauty & Personal Care,Mobile,Windows,2,7,1,1,0.4911500644674689
+58,1,7.095843509837092,0,Male,Mumbai,Apparel,Tablet,iOS,6,4,1,1,0.5
+57,4,6.72683274310189,0,Female,Mumbai,Home & Kitchen,Desktop,iOS,3,3,1,1,0.4746020686751738
+41,5,7.108874055858998,1,Female,London,Electronics,Tablet,iOS,3,12,0,1,0.5081264549416646
+19,2,6.099331917976989,0,Male,New York,Apparel,Tablet,iOS,1,1,1,1,0.5
+37,1,5.954385538866561,0,Male,New York,Sports & Outdoors,Tablet,iOS,3,10,0,1,0.5078779438090726
+57,1,5.954385538866561,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,1,12,0,1,0.4880633495722263
+32,5,6.720714604648205,1,Male,London,Home & Kitchen,Tablet,iOS,1,10,1,1,0.5
+58,3,6.685124096384656,0,Male,London,Sports & Outdoors,Desktop,iOS,5,10,0,1,0.48799188609074995
+42,5,5.954385538866561,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,6,4,0,1,0.492186626464248
+24,1,5.954385538866561,0,Male,London,Sports & Outdoors,Desktop,iOS,3,9,0,1,0.5
+18,2,7.1834912804155175,0,Female,Berlin,Apparel,Mobile,Windows,0,11,1,1,0.5
+48,2,6.720714604648205,0,Female,Mumbai,Home & Kitchen,Mobile,Windows,6,1,1,1,0.5
+33,5,5.912448395678571,0,Female,London,Home & Kitchen,Mobile,Android,5,11,1,1,0.4806550009357031
+20,3,6.685124096384656,0,Male,Sydney,Sports & Outdoors,Mobile,Windows,1,2,0,0,0.510567956485921
+42,4,4.787408405976297,0,Male,New York,Beauty & Personal Care,Tablet,iOS,2,8,0,0,0.5221533363736934
+43,5,6.908275143828988,1,Female,Mumbai,Beauty & Personal Care,Tablet,iOS,2,1,1,1,0.5
+49,2,6.935312078553008,0,Female,London,Electronics,Desktop,iOS,3,11,1,1,0.4891045528626407
+37,1,7.108874055858998,0,Female,Sydney,Electronics,Desktop,iOS,5,7,0,1,0.5
+40,4,7.095843509837092,1,Female,Mumbai,Apparel,Desktop,iOS,3,11,0,1,0.5
+63,3,6.099331917976989,0,Female,Sydney,Apparel,Mobile,Windows,1,12,0,1,0.5
+32,5,7.095843509837092,1,Female,Berlin,Apparel,Mobile,Android,5,1,1,0,0.5148631774635724
+19,4,7.108874055858998,1,Female,Sydney,Electronics,Tablet,iOS,1,7,1,1,0.5
+47,4,7.2275826117324,1,Female,London,Beauty & Personal Care,Mobile,Android,5,4,1,1,0.48640542950735993
+36,3,7.163760908573366,1,Male,London,Electronics,Mobile,Windows,6,2,1,1,0.4768939205754042
+28,2,6.459920103707352,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,1,3,0,1,0.48467371944010784
+18,4,6.459920103707352,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,1,9,1,0,0.5157599237312482
+61,3,6.935312078553008,0,Male,London,Electronics,Desktop,iOS,5,11,0,1,0.4882494967799709
+51,1,5.499746864955492,0,Female,New York,Sports & Outdoors,Mobile,Android,1,10,1,1,0.5
+55,5,7.149060896922205,1,Female,London,Beauty & Personal Care,Desktop,iOS,4,6,0,0,0.5197393863024339
+48,4,5.499746864955492,0,Male,London,Sports & Outdoors,Tablet,iOS,5,7,1,1,0.5
+34,5,6.72683274310189,1,Female,London,Home & Kitchen,Desktop,iOS,0,6,0,1,0.5
+22,3,6.099331917976989,0,Male,Berlin,Apparel,Mobile,Android,0,1,1,1,0.5
+21,5,7.095843509837092,1,Male,New York,Apparel,Tablet,iOS,3,10,1,0,0.516920041140705
+47,5,7.163760908573366,1,Male,Mumbai,Electronics,Mobile,Android,3,10,0,0,0.519185050356272
+42,2,6.459920103707352,0,Female,London,Sports & Outdoors,Mobile,Android,1,2,0,1,0.48750948878416966
+33,5,6.72683274310189,1,Male,New York,Home & Kitchen,Tablet,iOS,5,12,0,0,0.5219868400056836
+57,4,5.912448395678571,0,Female,London,Home & Kitchen,Tablet,iOS,4,1,0,1,0.4869059742178955
+38,2,5.499746864955492,0,Female,New York,Sports & Outdoors,Mobile,Android,5,8,0,1,0.4933523950149428
+43,4,7.108874055858998,1,Female,New York,Electronics,Desktop,iOS,1,12,1,0,0.5299811401552468
+56,1,6.685124096384656,0,Male,New York,Sports & Outdoors,Tablet,iOS,0,6,1,0,0.5101086695041976
+31,3,6.810825788802163,0,Female,New York,Apparel,Desktop,iOS,6,7,0,1,0.5
+39,5,7.1834912804155175,1,Male,Mumbai,Apparel,Desktop,iOS,3,11,0,1,0.5
+20,5,7.108874055858998,1,Male,Mumbai,Electronics,Tablet,iOS,2,7,1,1,0.4837713843739104
+28,4,4.787408405976297,0,Male,Sydney,Beauty & Personal Care,Tablet,iOS,6,8,0,0,0.5346515478507663
+19,1,5.912448395678571,0,Female,Sydney,Home & Kitchen,Mobile,Android,6,1,1,1,0.5
+59,5,7.163760908573366,1,Male,Sydney,Electronics,Mobile,Android,3,7,1,0,0.5274328885812066
+26,4,6.685124096384656,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,6,3,1,1,0.5
+60,1,6.459920103707352,0,Female,Berlin,Sports & Outdoors,Tablet,iOS,6,4,1,1,0.47041593743263704
+56,4,5.499746864955492,0,Male,Berlin,Sports & Outdoors,Desktop,iOS,2,9,0,1,0.4716733191225681
+36,2,4.787408405976297,0,Male,New York,Beauty & Personal Care,Mobile,Android,2,2,1,0,0.5234603934804922
+41,3,5.912448395678571,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,1,8,0,1,0.4904949990371783
+40,4,6.908275143828988,1,Male,London,Beauty & Personal Care,Tablet,iOS,0,1,1,1,0.48046095017003804
+33,1,7.163760908573366,0,Male,Sydney,Electronics,Tablet,iOS,0,6,0,0,0.5193977298233444
+48,1,6.908275143828988,0,Male,Sydney,Beauty & Personal Care,Tablet,iOS,3,8,0,1,0.5068597888979696
+37,1,7.280449230759757,0,Female,London,Home & Kitchen,Mobile,Windows,2,11,1,1,0.5
+52,5,7.095843509837092,1,Female,New York,Apparel,Mobile,Windows,3,2,0,0,0.5338479297833242
+54,1,6.720714604648205,0,Male,New York,Home & Kitchen,Mobile,Windows,4,5,0,0,0.5179095221860018
+33,4,6.459920103707352,0,Male,London,Sports & Outdoors,Mobile,Windows,4,11,0,1,0.5053063942579574
+18,5,4.527640983478854,0,Male,New York,Home & Kitchen,Mobile,Windows,2,7,1,0,0.5644544858604488
+24,3,6.935312078553008,0,Female,Berlin,Electronics,Tablet,iOS,5,2,0,1,0.49336268263154576
+32,4,6.908275143828988,1,Male,London,Beauty & Personal Care,Desktop,iOS,4,6,0,1,0.5
+40,5,6.466051407286527,0,Male,New York,Electronics,Tablet,iOS,4,7,1,0,0.5099318850526782
+29,2,5.499746864955492,0,Female,London,Sports & Outdoors,Mobile,Android,3,3,0,1,0.48780379730174533
+18,5,5.499746864955492,0,Male,New York,Sports & Outdoors,Tablet,iOS,6,9,0,0,0.5480811282693886
+34,3,4.527640983478854,0,Female,London,Home & Kitchen,Tablet,iOS,2,11,1,0,0.5300165083958839
+44,3,6.76528116198421,0,Male,Mumbai,Electronics,Mobile,Windows,0,4,1,1,0.4927604558738208
+51,3,7.172532015712284,1,Male,Sydney,Apparel,Mobile,Windows,4,7,0,1,0.5
+44,1,7.280449230759757,0,Male,Sydney,Home & Kitchen,Mobile,Windows,5,3,0,0,0.5215285964816417
+64,3,6.685124096384656,0,Female,Sydney,Sports & Outdoors,Desktop,iOS,6,4,1,1,0.47512087432832517
+55,2,7.280449230759757,0,Female,London,Home & Kitchen,Desktop,iOS,5,9,1,1,0.4897933133560346
+45,1,7.149060896922205,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,6,1,1,1,0.48718155342427766
+42,5,7.1834912804155175,1,Male,Mumbai,Apparel,Mobile,Windows,0,3,1,1,0.4904954690441066
+31,2,6.5918246122580335,0,Male,New York,Beauty & Personal Care,Mobile,Windows,3,1,1,0,0.5136359890704641
+58,1,7.108874055858998,0,Female,Sydney,Electronics,Mobile,Windows,3,4,1,0,0.5127172382300612
+62,1,7.280449230759757,0,Male,Mumbai,Home & Kitchen,Mobile,Android,1,2,1,1,0.49277065108478985
+62,3,7.108874055858998,1,Female,Berlin,Electronics,Tablet,iOS,6,10,1,1,0.5
+39,3,6.76528116198421,0,Female,New York,Electronics,Mobile,Windows,2,6,1,1,0.5
+30,1,6.5918246122580335,0,Female,Mumbai,Beauty & Personal Care,Mobile,Windows,1,4,1,1,0.4930027113286786
+51,3,6.685124096384656,0,Male,New York,Sports & Outdoors,Mobile,Android,4,1,1,1,0.5
+42,3,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Mobile,Windows,6,3,0,0,0.5106362141085123
+35,3,6.935312078553008,0,Female,New York,Electronics,Mobile,Android,3,12,1,1,0.5057662013540202
+43,4,7.172532015712284,1,Female,New York,Apparel,Mobile,Windows,6,7,0,1,0.4941546269744362
+45,3,6.72683274310189,0,Female,Berlin,Home & Kitchen,Mobile,Android,4,3,0,1,0.5
+45,5,6.810825788802163,1,Male,London,Apparel,Mobile,Android,1,5,0,1,0.4814915531224748
+21,5,7.172532015712284,1,Male,New York,Apparel,Tablet,iOS,0,12,1,1,0.5060517715985047
+41,5,4.527640983478854,0,Female,New York,Home & Kitchen,Desktop,iOS,6,5,0,0,0.5089325104169191
+55,2,6.459920103707352,0,Female,Sydney,Sports & Outdoors,Mobile,Android,0,2,1,1,0.5
+59,3,6.466051407286527,0,Male,Mumbai,Electronics,Mobile,Android,4,5,1,1,0.4855381426039684
+60,2,6.459920103707352,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,1,10,1,1,0.48500011090423445
+48,4,7.149060896922205,1,Male,Mumbai,Beauty & Personal Care,Tablet,iOS,2,8,0,1,0.47942325146427084
+58,3,5.499746864955492,0,Female,Mumbai,Sports & Outdoors,Desktop,iOS,0,11,1,1,0.5
+60,3,5.499746864955492,0,Female,Berlin,Sports & Outdoors,Tablet,iOS,3,11,0,1,0.46924627536648006
+52,4,6.099331917976989,0,Female,Sydney,Apparel,Tablet,iOS,2,5,1,1,0.48564973063340133
+20,4,5.499746864955492,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,5,8,0,0,0.5335350880978801
+62,2,7.149060896922205,0,Male,New York,Beauty & Personal Care,Mobile,Android,1,9,0,1,0.49244788231401415
+19,2,6.76528116198421,0,Female,Sydney,Electronics,Desktop,iOS,4,2,1,0,0.5132898518548785
+18,3,4.527640983478854,0,Female,Berlin,Home & Kitchen,Tablet,iOS,5,12,0,1,0.5068541392805515
+27,3,6.76528116198421,0,Female,Berlin,Electronics,Mobile,Android,1,12,0,1,0.49386191342309876
+20,1,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Desktop,iOS,2,12,0,1,0.5
+27,4,7.172532015712284,1,Male,Sydney,Apparel,Mobile,Android,3,5,1,1,0.5
+27,5,5.658471251946198,0,Female,Berlin,Sports & Outdoors,Tablet,iOS,6,12,0,0,0.5126165710014223
+23,5,6.459920103707352,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,2,2,0,0,0.5148996577354845
+42,3,7.095843509837092,0,Female,Sydney,Apparel,Tablet,iOS,1,9,0,1,0.48159063710640865
+20,4,7.149060896922205,1,Female,Berlin,Beauty & Personal Care,Mobile,Android,6,4,1,0,0.5277067548294329
+48,4,5.658471251946198,0,Male,London,Sports & Outdoors,Tablet,iOS,1,5,0,1,0.5
+18,4,4.527640983478854,0,Female,Berlin,Home & Kitchen,Desktop,iOS,4,12,0,0,0.5339748648344382
+59,4,6.5918246122580335,0,Female,London,Beauty & Personal Care,Desktop,iOS,3,7,1,1,0.4730929582825454
+22,4,5.658471251946198,0,Male,Sydney,Sports & Outdoors,Mobile,Windows,5,3,0,0,0.523120669455701
+44,5,6.935312078553008,1,Female,Mumbai,Electronics,Mobile,Android,4,7,1,0,0.5281532683488855
+40,2,5.499746864955492,0,Female,Berlin,Sports & Outdoors,Desktop,iOS,3,9,0,1,0.48789989673530865
+53,4,6.685124096384656,0,Female,London,Sports & Outdoors,Mobile,Windows,0,3,1,1,0.4875293321427142
+53,1,4.787408405976297,0,Female,Mumbai,Beauty & Personal Care,Mobile,Windows,6,9,0,0,0.539031893461724
+35,2,7.2275826117324,0,Female,Berlin,Beauty & Personal Care,Mobile,Windows,4,11,1,1,0.5051631853389617
+25,2,6.72683274310189,0,Male,Berlin,Home & Kitchen,Tablet,iOS,1,9,1,1,0.5
+34,2,5.658471251946198,0,Male,Mumbai,Sports & Outdoors,Mobile,Windows,6,6,0,1,0.5
+41,3,6.5918246122580335,0,Female,New York,Beauty & Personal Care,Tablet,iOS,2,11,0,1,0.49283418608501534
+31,2,6.935312078553008,0,Male,New York,Electronics,Tablet,iOS,0,7,1,0,0.5169368800600991
+46,3,7.149060896922205,1,Male,New York,Beauty & Personal Care,Mobile,Android,5,4,1,1,0.506318105203568
+57,3,6.908275143828988,0,Female,New York,Beauty & Personal Care,Desktop,iOS,2,5,0,1,0.4804128340291312
+44,2,4.787408405976297,0,Male,London,Beauty & Personal Care,Mobile,Windows,6,9,1,0,0.51658687010017
+43,2,7.095843509837092,0,Female,London,Apparel,Tablet,iOS,3,7,1,1,0.48022772119023405
+29,3,7.108874055858998,1,Male,Sydney,Electronics,Mobile,Windows,2,9,0,1,0.5
+23,2,6.810825788802163,0,Male,New York,Apparel,Mobile,Windows,5,6,0,0,0.5100374875654882
+29,1,6.685124096384656,0,Male,Mumbai,Sports & Outdoors,Mobile,Windows,4,4,0,0,0.5130879140062026
+22,1,6.810825788802163,0,Male,Sydney,Apparel,Tablet,iOS,2,10,1,1,0.5
+47,4,6.466051407286527,0,Female,London,Electronics,Tablet,iOS,3,4,0,1,0.4839766858147254
+33,1,4.527640983478854,0,Female,Berlin,Home & Kitchen,Mobile,Android,1,3,0,1,0.4804052006518964
+43,5,5.954385538866561,0,Female,London,Sports & Outdoors,Mobile,Android,6,5,1,1,0.4780076005201166
+51,5,6.466051407286527,0,Male,London,Electronics,Mobile,Android,0,12,0,1,0.47592990920675077
+21,5,6.935312078553008,1,Male,New York,Electronics,Mobile,Windows,5,9,0,0,0.5355057134729299
+46,2,6.810825788802163,0,Male,Mumbai,Apparel,Tablet,iOS,4,12,1,1,0.4947170023578233
+38,1,7.280449230759757,0,Male,London,Home & Kitchen,Desktop,iOS,1,7,1,1,0.5
+64,2,4.527640983478854,0,Male,New York,Home & Kitchen,Tablet,iOS,5,4,0,0,0.5539957260510925
+33,5,4.527640983478854,0,Male,New York,Home & Kitchen,Desktop,iOS,6,1,1,0,0.5237413347926623
+29,1,4.527640983478854,0,Female,London,Home & Kitchen,Tablet,iOS,6,5,0,0,0.5297610076391738
+45,4,7.163760908573366,1,Male,Mumbai,Electronics,Desktop,iOS,4,8,0,1,0.4924641507290896
+36,3,6.685124096384656,0,Male,New York,Sports & Outdoors,Tablet,iOS,3,11,0,1,0.5
+63,1,5.912448395678571,0,Female,Sydney,Home & Kitchen,Tablet,iOS,5,5,1,1,0.5056787558620386
+40,2,6.935312078553008,0,Male,Berlin,Electronics,Desktop,iOS,1,5,1,1,0.5
+24,3,7.1834912804155175,1,Female,New York,Apparel,Mobile,Android,4,12,1,0,0.5352353389269736
+32,1,7.108874055858998,0,Female,New York,Electronics,Tablet,iOS,0,4,1,1,0.5
+43,1,6.810825788802163,0,Male,New York,Apparel,Tablet,iOS,4,9,1,1,0.5058758791446505
+21,4,7.163760908573366,1,Female,London,Electronics,Tablet,iOS,1,5,0,1,0.48357774872712883
+45,3,6.720714604648205,0,Male,Sydney,Home & Kitchen,Tablet,iOS,6,7,1,1,0.5
+62,5,6.099331917976989,0,Female,London,Apparel,Mobile,Windows,2,4,1,1,0.48305956255623167
+31,4,7.149060896922205,1,Male,New York,Beauty & Personal Care,Tablet,iOS,5,11,1,1,0.5
+49,1,6.466051407286527,0,Female,London,Electronics,Mobile,Android,6,6,1,1,0.4926041313713243
+36,4,4.527640983478854,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,1,1,0,0,0.5308782722090071
+21,1,4.787408405976297,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,1,3,0,0,0.5197011403277296
+41,4,7.280449230759757,1,Female,Sydney,Home & Kitchen,Tablet,iOS,0,4,1,1,0.5
+33,2,4.787408405976297,0,Male,London,Beauty & Personal Care,Tablet,iOS,3,4,0,0,0.535781413871962
+26,2,6.459920103707352,0,Male,Berlin,Sports & Outdoors,Desktop,iOS,6,11,1,1,0.5
+36,4,6.720714604648205,0,Female,London,Home & Kitchen,Mobile,Android,4,9,0,1,0.5
+50,2,7.172532015712284,0,Male,New York,Apparel,Tablet,iOS,6,7,1,1,0.5
+37,5,7.163760908573366,1,Female,London,Electronics,Tablet,iOS,2,11,1,1,0.47949641104105656
+36,5,7.108874055858998,1,Female,Mumbai,Electronics,Desktop,iOS,6,10,0,0,0.5180003668978488
+18,1,6.720714604648205,0,Female,London,Home & Kitchen,Desktop,iOS,5,6,0,1,0.5
+35,2,6.466051407286527,0,Female,Mumbai,Electronics,Mobile,Android,2,8,1,1,0.4887422518993584
+25,5,6.685124096384656,1,Male,Mumbai,Sports & Outdoors,Tablet,iOS,0,10,1,1,0.49069948547993936
+23,1,6.099331917976989,0,Male,Sydney,Apparel,Desktop,iOS,0,2,0,0,0.5147836433450637
+56,2,5.658471251946198,0,Female,Mumbai,Sports & Outdoors,Mobile,Android,5,12,0,1,0.48869544855443303
+27,4,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Mobile,Windows,5,3,1,1,0.5
+55,5,6.72683274310189,1,Female,London,Home & Kitchen,Mobile,Windows,2,7,1,1,0.4875036431152215
+23,4,6.810825788802163,0,Male,New York,Apparel,Desktop,iOS,1,9,0,1,0.5072204971779141
+54,5,5.912448395678571,0,Female,New York,Home & Kitchen,Mobile,Windows,3,1,0,1,0.5
+59,2,7.108874055858998,0,Male,London,Electronics,Tablet,iOS,0,10,0,1,0.5
+63,2,7.108874055858998,0,Female,Berlin,Electronics,Desktop,iOS,1,6,1,1,0.47797670403684134
+35,2,7.163760908573366,0,Female,Berlin,Electronics,Desktop,iOS,0,9,1,1,0.4923871035215474
+20,4,7.2275826117324,1,Male,Berlin,Beauty & Personal Care,Tablet,iOS,3,9,0,0,0.5171048896880355
+37,5,6.459920103707352,0,Male,Mumbai,Sports & Outdoors,Desktop,iOS,4,9,0,1,0.5
+41,1,6.720714604648205,0,Female,New York,Home & Kitchen,Tablet,iOS,2,2,1,1,0.5
+56,5,7.172532015712284,1,Male,Mumbai,Apparel,Mobile,Android,0,8,1,1,0.4842796394443172
+63,3,5.499746864955492,0,Female,New York,Sports & Outdoors,Mobile,Windows,4,12,1,0,0.525052444222178
+24,1,7.095843509837092,0,Male,London,Apparel,Mobile,Windows,0,8,0,1,0.5
+23,5,7.2275826117324,1,Male,New York,Beauty & Personal Care,Tablet,iOS,4,3,0,0,0.5325116438853356
+20,2,7.280449230759757,0,Male,Mumbai,Home & Kitchen,Tablet,iOS,2,2,0,0,0.512064767721132
+64,3,6.810825788802163,0,Male,Berlin,Apparel,Mobile,Android,1,6,0,1,0.48246076209236594
+33,5,6.76528116198421,1,Female,Sydney,Electronics,Mobile,Android,6,4,0,1,0.5062094061947219
+44,2,4.787408405976297,0,Female,Berlin,Beauty & Personal Care,Mobile,Android,5,7,1,1,0.47687054609529184
+46,4,4.787408405976297,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,4,7,0,0,0.5343529132333137
+35,2,7.280449230759757,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,4,10,1,1,0.492964832538508
+23,1,7.108874055858998,0,Male,Sydney,Electronics,Tablet,iOS,1,11,0,1,0.5
+57,5,7.108874055858998,1,Female,London,Electronics,Mobile,Windows,0,9,0,1,0.47790676453788566
+20,4,6.72683274310189,0,Male,New York,Home & Kitchen,Mobile,Windows,4,12,0,0,0.5347553797463936
+37,2,6.459920103707352,0,Female,New York,Sports & Outdoors,Tablet,iOS,0,2,0,1,0.4904906265426835
+49,1,6.72683274310189,0,Male,Sydney,Home & Kitchen,Mobile,Android,3,9,0,1,0.50620492805941
+33,4,6.099331917976989,0,Male,Sydney,Apparel,Desktop,iOS,3,6,1,1,0.5
+46,5,6.099331917976989,0,Male,Sydney,Apparel,Mobile,Windows,4,6,0,1,0.5
+43,3,6.810825788802163,0,Male,Berlin,Apparel,Tablet,iOS,6,1,0,1,0.4884216486205734
+49,1,6.720714604648205,0,Male,Mumbai,Home & Kitchen,Desktop,iOS,3,11,1,1,0.5
+21,3,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,5,10,1,0,0.5172073719144926
+58,2,6.685124096384656,0,Female,Mumbai,Sports & Outdoors,Mobile,Windows,4,7,0,1,0.5076965397109319
+45,5,5.658471251946198,0,Female,New York,Sports & Outdoors,Desktop,iOS,3,6,1,1,0.5
+41,1,6.935312078553008,0,Female,Berlin,Electronics,Tablet,iOS,4,9,0,1,0.4908355050440551
+34,1,7.095843509837092,0,Female,London,Apparel,Desktop,iOS,5,2,0,1,0.4860606656747129
+51,2,6.5918246122580335,0,Female,New York,Beauty & Personal Care,Tablet,iOS,0,3,1,1,0.49253467664841455
+30,5,5.499746864955492,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,2,7,1,0,0.5171218742152266
+26,2,7.149060896922205,0,Female,London,Beauty & Personal Care,Mobile,Windows,3,9,0,1,0.5
+39,3,6.810825788802163,0,Female,London,Apparel,Tablet,iOS,6,1,1,1,0.47912832169076186
+38,3,6.76528116198421,0,Female,New York,Electronics,Desktop,iOS,1,7,1,1,0.5
+40,5,7.1834912804155175,1,Male,New York,Apparel,Mobile,Windows,0,2,0,0,0.5175495270909781
+47,2,6.935312078553008,0,Female,Sydney,Electronics,Mobile,Windows,0,7,0,1,0.5
+38,5,6.5918246122580335,0,Male,Mumbai,Beauty & Personal Care,Desktop,iOS,3,3,0,1,0.49464648258498506
+32,4,5.912448395678571,0,Female,Mumbai,Home & Kitchen,Desktop,iOS,4,6,1,1,0.5
+54,1,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,3,7,1,1,0.4868746696788254
+18,5,7.108874055858998,1,Male,Mumbai,Electronics,Tablet,iOS,1,3,1,1,0.4897896734954341
+56,4,7.163760908573366,1,Male,Sydney,Electronics,Mobile,Windows,5,11,1,1,0.5066238586053948
+38,3,5.954385538866561,0,Male,Berlin,Sports & Outdoors,Mobile,Android,3,1,0,1,0.48736380184039846
+47,3,5.954385538866561,0,Female,London,Sports & Outdoors,Desktop,iOS,5,8,0,1,0.48832642243789437
+56,2,7.095843509837092,0,Female,New York,Apparel,Mobile,Windows,0,10,1,1,0.5
+25,4,5.499746864955492,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,5,8,1,0,0.5252141604562283
+54,3,7.149060896922205,1,Female,Berlin,Beauty & Personal Care,Mobile,Windows,3,6,1,0,0.5220758152029485
+43,4,7.2275826117324,1,Female,Mumbai,Beauty & Personal Care,Desktop,iOS,5,12,1,0,0.5199170196708403
+20,3,6.72683274310189,0,Male,Mumbai,Home & Kitchen,Mobile,Android,0,1,1,0,0.5099430883687623
+43,4,6.935312078553008,1,Female,Berlin,Electronics,Tablet,iOS,3,7,1,0,0.5186458883169347
+30,2,6.685124096384656,0,Female,Mumbai,Sports & Outdoors,Mobile,Windows,0,9,1,1,0.5
+20,5,7.095843509837092,1,Female,Mumbai,Apparel,Tablet,iOS,5,8,0,1,0.49448146862446907
+56,2,7.172532015712284,0,Male,Berlin,Apparel,Mobile,Windows,2,9,0,1,0.49239234650622504
+63,3,7.1834912804155175,1,Male,Berlin,Apparel,Desktop,iOS,4,7,1,1,0.5075854106470935
+47,4,7.149060896922205,1,Female,Mumbai,Beauty & Personal Care,Mobile,Windows,1,10,0,0,0.5194228199825996
+25,4,6.935312078553008,1,Male,New York,Electronics,Tablet,iOS,5,6,0,1,0.5
+43,3,5.912448395678571,0,Male,Berlin,Home & Kitchen,Mobile,Android,1,4,0,1,0.48883802279998584
+19,2,7.095843509837092,0,Male,New York,Apparel,Tablet,iOS,2,7,0,1,0.5051557587857718
+43,4,6.72683274310189,0,Female,New York,Home & Kitchen,Tablet,iOS,6,8,0,1,0.4912161101711056
+41,3,4.527640983478854,0,Female,New York,Home & Kitchen,Tablet,iOS,2,6,1,0,0.5430072545316175
+42,4,7.1834912804155175,1,Male,Berlin,Apparel,Tablet,iOS,5,9,1,1,0.5
+58,2,7.280449230759757,0,Female,Berlin,Home & Kitchen,Tablet,iOS,0,10,0,1,0.4847468288127936
+42,5,7.172532015712284,1,Female,London,Apparel,Tablet,iOS,0,11,0,1,0.473139198568995
+54,4,6.720714604648205,0,Female,New York,Home & Kitchen,Tablet,iOS,0,12,0,1,0.4881005148431357
+47,5,4.527640983478854,0,Female,Sydney,Home & Kitchen,Mobile,Android,0,12,0,1,0.48084481890393443
+43,4,4.527640983478854,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,1,2,1,0,0.5229080441291707
+36,4,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,4,11,0,1,0.5
+57,4,5.658471251946198,0,Male,New York,Sports & Outdoors,Tablet,iOS,6,11,1,1,0.5
+35,2,6.5918246122580335,0,Male,Mumbai,Beauty & Personal Care,Mobile,Android,1,7,1,1,0.5
+51,3,6.5918246122580335,0,Male,New York,Beauty & Personal Care,Desktop,iOS,0,1,0,1,0.490970928813983
+51,5,7.108874055858998,1,Female,London,Electronics,Mobile,Android,6,10,0,1,0.48567087283127763
+62,3,5.954385538866561,0,Female,New York,Sports & Outdoors,Mobile,Windows,5,12,1,1,0.5051450710265053
+45,5,7.108874055858998,1,Male,Sydney,Electronics,Desktop,iOS,6,8,0,1,0.5
+51,2,6.72683274310189,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,3,6,0,1,0.48860606127072825
+40,5,6.099331917976989,0,Female,Berlin,Apparel,Desktop,iOS,6,5,1,1,0.48626412780683
+27,4,6.935312078553008,1,Female,London,Electronics,Tablet,iOS,5,8,1,1,0.4745363765195029
+22,2,7.149060896922205,0,Male,Sydney,Beauty & Personal Care,Desktop,iOS,6,5,1,0,0.5117333355345295
+63,1,5.658471251946198,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,2,3,1,1,0.47565731463333627
+32,2,6.466051407286527,0,Female,New York,Electronics,Mobile,Windows,2,3,0,1,0.5055288354292211
+52,5,4.787408405976297,0,Female,London,Beauty & Personal Care,Mobile,Android,1,6,1,1,0.4855920374598084
+64,3,7.2275826117324,1,Male,Berlin,Beauty & Personal Care,Mobile,Windows,6,2,0,0,0.5089675226055169
+62,4,6.935312078553008,1,Male,New York,Electronics,Mobile,Windows,3,5,1,0,0.5254419067607207
+55,3,5.499746864955492,0,Female,London,Sports & Outdoors,Desktop,iOS,0,12,0,1,0.5
+47,1,5.499746864955492,0,Male,London,Sports & Outdoors,Desktop,iOS,0,10,0,0,0.5139542936455616
+57,4,6.459920103707352,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,5,2,1,1,0.484096737523834
+40,4,6.099331917976989,0,Female,Mumbai,Apparel,Desktop,iOS,5,4,0,1,0.49351464201917583
+32,5,6.459920103707352,0,Female,Berlin,Sports & Outdoors,Mobile,Windows,0,11,0,1,0.5
+48,3,6.720714604648205,0,Female,Mumbai,Home & Kitchen,Mobile,Android,3,6,1,1,0.492110160562499
+30,1,7.1834912804155175,0,Male,Mumbai,Apparel,Mobile,Android,0,12,0,1,0.5
+18,4,7.172532015712284,1,Female,London,Apparel,Desktop,iOS,3,5,1,0,0.5102758924107389
+55,2,5.658471251946198,0,Female,Mumbai,Sports & Outdoors,Mobile,Android,5,6,1,1,0.4911489008271865
+26,5,6.466051407286527,0,Female,London,Electronics,Desktop,iOS,1,2,0,0,0.5142911251431778
+54,3,5.954385538866561,0,Female,New York,Sports & Outdoors,Desktop,iOS,0,10,0,1,0.49473613396905486
+23,1,7.163760908573366,0,Male,New York,Electronics,Tablet,iOS,6,1,1,0,0.5109410826483378
+51,2,6.72683274310189,0,Female,New York,Home & Kitchen,Mobile,Android,1,6,1,1,0.5
+31,1,6.685124096384656,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,1,8,1,1,0.4866317831662554
+61,3,7.172532015712284,1,Female,Berlin,Apparel,Tablet,iOS,2,11,0,1,0.4873176170481785
+58,4,7.163760908573366,1,Male,Sydney,Electronics,Mobile,Android,0,5,1,1,0.5
+36,2,7.095843509837092,0,Male,Mumbai,Apparel,Mobile,Windows,2,8,0,1,0.5
+41,5,7.1834912804155175,1,Female,Mumbai,Apparel,Mobile,Android,5,12,1,1,0.5
+31,2,6.099331917976989,0,Female,London,Apparel,Tablet,iOS,5,10,0,1,0.49112683985780153
+51,5,6.810825788802163,1,Female,London,Apparel,Tablet,iOS,2,4,0,1,0.4782916085098815
+31,2,6.5918246122580335,0,Male,Berlin,Beauty & Personal Care,Mobile,Android,5,7,1,1,0.5
+31,2,6.466051407286527,0,Male,New York,Electronics,Mobile,Android,6,6,1,1,0.5075242013982454
+47,4,7.280449230759757,1,Male,Berlin,Home & Kitchen,Desktop,iOS,3,1,0,0,0.53193567935087
+35,5,7.108874055858998,1,Male,Mumbai,Electronics,Mobile,Android,5,12,1,1,0.5
+56,3,5.954385538866561,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,3,11,0,1,0.48590833367165215
+56,1,6.685124096384656,0,Male,Mumbai,Sports & Outdoors,Mobile,Android,0,4,0,1,0.48800310655689283
+63,3,4.787408405976297,0,Male,Berlin,Beauty & Personal Care,Tablet,iOS,3,2,1,1,0.47303358561022923
+61,5,7.1834912804155175,1,Female,London,Apparel,Desktop,iOS,0,4,1,1,0.4717509773434415
+23,3,5.658471251946198,0,Female,New York,Sports & Outdoors,Mobile,Windows,2,7,1,0,0.5174981362900454
+23,1,6.72683274310189,0,Male,Mumbai,Home & Kitchen,Tablet,iOS,4,9,0,0,0.5097479963594721
+54,3,5.658471251946198,0,Female,Berlin,Sports & Outdoors,Tablet,iOS,3,8,1,1,0.46469890930046537
+60,1,5.912448395678571,0,Female,Berlin,Home & Kitchen,Mobile,Android,5,12,1,1,0.4845436362079996
+24,4,5.954385538866561,0,Female,New York,Sports & Outdoors,Tablet,iOS,1,7,0,0,0.5272541222080788
+35,2,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,5,12,1,1,0.5
+20,3,5.912448395678571,0,Female,London,Home & Kitchen,Tablet,iOS,0,8,1,1,0.5060555465594289
+55,3,7.1834912804155175,1,Female,London,Apparel,Tablet,iOS,0,1,1,1,0.4628214241519087
+51,1,6.5918246122580335,0,Male,London,Beauty & Personal Care,Mobile,Android,0,3,0,1,0.5
+22,2,6.685124096384656,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,2,8,0,1,0.5
+28,5,7.1834912804155175,1,Male,Sydney,Apparel,Tablet,iOS,2,6,0,1,0.48411165566005526
+58,4,6.76528116198421,0,Male,New York,Electronics,Mobile,Android,6,10,0,1,0.4890422507742904
+34,1,6.720714604648205,0,Male,Berlin,Home & Kitchen,Tablet,iOS,3,7,1,1,0.5078480627934733
+64,5,6.720714604648205,1,Male,London,Home & Kitchen,Mobile,Android,4,10,1,0,0.5173300970358095
+54,2,7.149060896922205,0,Male,Sydney,Beauty & Personal Care,Mobile,Android,5,7,1,1,0.5
+41,5,6.720714604648205,1,Male,London,Home & Kitchen,Tablet,iOS,3,2,1,1,0.508504145918517
+28,1,6.810825788802163,0,Male,Berlin,Apparel,Desktop,iOS,1,6,1,1,0.5
+34,3,7.172532015712284,1,Female,London,Apparel,Tablet,iOS,5,11,0,1,0.47244712010882894
+20,4,5.658471251946198,0,Male,Sydney,Sports & Outdoors,Mobile,Android,3,6,1,1,0.505609096939301
+58,1,7.2275826117324,0,Male,Mumbai,Beauty & Personal Care,Tablet,iOS,1,10,1,1,0.4948648440325858
+48,4,6.720714604648205,0,Male,Sydney,Home & Kitchen,Mobile,Android,2,5,0,1,0.492614927000866
+60,2,7.108874055858998,0,Male,Berlin,Electronics,Tablet,iOS,4,5,0,1,0.4921882477033082
+21,2,7.108874055858998,0,Female,London,Electronics,Desktop,iOS,6,7,0,1,0.5
+61,2,6.810825788802163,0,Female,Berlin,Apparel,Tablet,iOS,1,10,0,1,0.4741274322613986
+40,4,6.685124096384656,0,Female,Mumbai,Sports & Outdoors,Mobile,Android,5,6,0,1,0.4881914143916446
+50,1,7.163760908573366,0,Male,New York,Electronics,Tablet,iOS,4,6,0,0,0.5187914216866604
+59,2,7.1834912804155175,0,Male,New York,Apparel,Mobile,Windows,3,4,0,1,0.5065478590821745
+36,5,6.466051407286527,0,Male,New York,Electronics,Tablet,iOS,3,3,0,1,0.507743436451296
+34,3,6.72683274310189,0,Male,London,Home & Kitchen,Tablet,iOS,5,8,1,1,0.5
+52,3,5.954385538866561,0,Male,London,Sports & Outdoors,Desktop,iOS,0,10,0,1,0.49384002943226724
+27,4,7.095843509837092,1,Female,London,Apparel,Desktop,iOS,6,2,1,1,0.5
+63,2,6.720714604648205,0,Female,Berlin,Home & Kitchen,Desktop,iOS,2,2,1,1,0.4755476574842261
+47,5,6.76528116198421,1,Female,Mumbai,Electronics,Mobile,Android,2,9,1,1,0.5
+51,5,7.172532015712284,1,Male,Berlin,Apparel,Desktop,iOS,2,6,0,0,0.522669173907924
+33,4,4.787408405976297,0,Male,Berlin,Beauty & Personal Care,Mobile,Windows,1,1,1,0,0.5124569475824664
+20,1,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,0,4,1,0,0.5130045689843613
+60,1,7.1834912804155175,0,Male,London,Apparel,Tablet,iOS,2,12,0,1,0.5
+38,1,4.787408405976297,0,Female,New York,Beauty & Personal Care,Mobile,Windows,0,7,1,0,0.5454713577855236
+64,2,6.810825788802163,0,Male,Sydney,Apparel,Mobile,Android,4,7,0,1,0.5
+26,2,7.163760908573366,0,Female,Sydney,Electronics,Mobile,Windows,6,2,1,1,0.5
+43,1,6.72683274310189,0,Female,New York,Home & Kitchen,Desktop,iOS,3,10,1,1,0.5
+40,3,6.76528116198421,0,Male,London,Electronics,Mobile,Windows,1,1,0,1,0.487396204225208
+63,4,6.76528116198421,0,Female,Mumbai,Electronics,Tablet,iOS,5,5,0,1,0.4655201034227066
+42,5,7.108874055858998,1,Male,Berlin,Electronics,Tablet,iOS,3,8,0,1,0.5059703013162951
+50,4,6.685124096384656,0,Female,Berlin,Sports & Outdoors,Desktop,iOS,0,5,0,1,0.47880496224686864
+38,1,6.685124096384656,0,Male,New York,Sports & Outdoors,Tablet,iOS,3,11,1,1,0.5
+43,1,7.2275826117324,0,Female,New York,Beauty & Personal Care,Tablet,iOS,2,5,1,1,0.4858510226123565
+63,2,7.172532015712284,0,Female,Berlin,Apparel,Mobile,Windows,0,6,1,1,0.487479415716734
+43,3,7.172532015712284,1,Female,Berlin,Apparel,Tablet,iOS,5,1,0,1,0.5
+22,4,6.099331917976989,0,Male,London,Apparel,Tablet,iOS,5,4,1,0,0.5133326219016692
+33,3,7.1834912804155175,1,Male,Berlin,Apparel,Mobile,Android,3,1,1,1,0.5
+47,5,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Desktop,iOS,3,8,1,1,0.4792835625625594
+64,1,7.095843509837092,0,Female,Sydney,Apparel,Tablet,iOS,5,12,1,1,0.48722322912833316
+49,2,4.787408405976297,0,Female,Sydney,Beauty & Personal Care,Desktop,iOS,5,10,1,0,0.5316741945689889
+44,1,5.499746864955492,0,Female,London,Sports & Outdoors,Desktop,iOS,4,7,1,1,0.5083190201594939
+31,1,6.908275143828988,0,Female,London,Beauty & Personal Care,Desktop,iOS,6,9,0,1,0.4909092906517712
+32,5,5.499746864955492,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,0,10,0,0,0.5188680946153524
+34,1,7.280449230759757,0,Female,Sydney,Home & Kitchen,Tablet,iOS,1,9,1,1,0.4855070694200857
+50,5,6.76528116198421,1,Female,Berlin,Electronics,Mobile,Windows,4,3,0,0,0.5397512162556453
+60,2,6.76528116198421,0,Female,Mumbai,Electronics,Tablet,iOS,6,9,1,1,0.48601516839002984
+40,5,6.935312078553008,1,Female,Mumbai,Electronics,Tablet,iOS,0,7,1,1,0.4880434859576358
+33,4,6.459920103707352,0,Male,New York,Sports & Outdoors,Tablet,iOS,2,3,0,1,0.5
+20,3,6.72683274310189,0,Male,Sydney,Home & Kitchen,Desktop,iOS,1,3,1,0,0.5155691309384284
+55,3,7.095843509837092,0,Female,Berlin,Apparel,Tablet,iOS,0,10,1,1,0.47673861129036427
+58,1,6.459920103707352,0,Female,New York,Sports & Outdoors,Tablet,iOS,0,4,0,1,0.4942455562640196
+34,3,4.787408405976297,0,Male,Mumbai,Beauty & Personal Care,Desktop,iOS,5,9,1,0,0.5258088470624072
+49,3,5.912448395678571,0,Female,Berlin,Home & Kitchen,Mobile,Android,4,1,0,1,0.4888153455731111
+20,3,6.466051407286527,0,Female,Berlin,Electronics,Tablet,iOS,0,10,0,1,0.5
+24,2,6.72683274310189,0,Female,Berlin,Home & Kitchen,Tablet,iOS,2,7,0,1,0.5
+22,2,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Mobile,Windows,5,11,0,1,0.5
+35,4,5.912448395678571,0,Female,Mumbai,Home & Kitchen,Desktop,iOS,1,3,0,1,0.5
+21,1,6.72683274310189,0,Female,London,Home & Kitchen,Desktop,iOS,3,10,0,1,0.5
+42,1,6.810825788802163,0,Female,London,Apparel,Mobile,Windows,6,3,0,1,0.49086245777765375
+39,1,7.1834912804155175,0,Male,Sydney,Apparel,Desktop,iOS,3,8,1,1,0.5
+64,3,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Mobile,Android,1,2,1,1,0.5
+51,5,7.280449230759757,1,Male,London,Home & Kitchen,Tablet,iOS,5,9,0,1,0.4924606334699637
+47,4,6.720714604648205,0,Male,Berlin,Home & Kitchen,Tablet,iOS,1,5,0,1,0.49151259556562865
+35,3,4.527640983478854,0,Female,London,Home & Kitchen,Tablet,iOS,5,9,0,0,0.5347849400434977
+29,1,6.685124096384656,0,Male,Sydney,Sports & Outdoors,Mobile,Windows,6,7,0,1,0.5078907965599744
+32,4,5.658471251946198,0,Female,Mumbai,Sports & Outdoors,Desktop,iOS,2,4,0,0,0.5112283744578991
+52,2,6.810825788802163,0,Female,Sydney,Apparel,Desktop,iOS,5,5,0,1,0.48626422804965536
+53,5,7.280449230759757,1,Male,New York,Home & Kitchen,Mobile,Android,1,7,0,0,0.5265057948002171
+42,2,7.163760908573366,0,Male,Berlin,Electronics,Mobile,Windows,2,11,0,1,0.5
+22,1,6.685124096384656,0,Male,Mumbai,Sports & Outdoors,Mobile,Windows,6,4,0,0,0.5095951720604149
+63,2,6.935312078553008,0,Female,New York,Electronics,Desktop,iOS,0,3,0,1,0.4859130158045643
+24,5,6.76528116198421,1,Male,Sydney,Electronics,Mobile,Android,3,9,0,0,0.5134802038101725
+41,1,6.720714604648205,0,Female,New York,Home & Kitchen,Tablet,iOS,2,3,0,1,0.49455694971937264
+43,5,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,1,12,0,1,0.49316963805620867
+53,2,6.459920103707352,0,Female,London,Sports & Outdoors,Desktop,iOS,4,3,0,1,0.48554763368275405
+30,4,7.172532015712284,1,Female,Sydney,Apparel,Tablet,iOS,0,6,0,1,0.49225768182750423
+59,1,6.685124096384656,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,6,8,0,1,0.48798647914812515
+19,5,6.685124096384656,1,Female,Sydney,Sports & Outdoors,Mobile,Android,6,8,0,1,0.5
+21,3,6.908275143828988,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,2,12,1,1,0.5
+60,4,7.095843509837092,1,Male,Mumbai,Apparel,Desktop,iOS,6,2,0,1,0.5
+63,3,6.76528116198421,0,Male,Mumbai,Electronics,Tablet,iOS,2,11,1,1,0.4768372058310314
+60,1,6.810825788802163,0,Female,Berlin,Apparel,Mobile,Android,5,11,1,1,0.4823426319030922
+21,3,6.76528116198421,0,Male,New York,Electronics,Tablet,iOS,0,2,0,0,0.5123590937715408
+41,3,7.172532015712284,1,Male,Berlin,Apparel,Tablet,iOS,4,5,0,1,0.5
+42,2,5.658471251946198,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,4,10,1,0,0.5160562930433094
+63,4,7.1834912804155175,1,Male,New York,Apparel,Mobile,Windows,3,11,0,0,0.5141979239275225
+41,5,6.76528116198421,1,Female,Sydney,Electronics,Desktop,iOS,4,10,0,0,0.5344683876723476
+46,2,6.935312078553008,0,Female,Mumbai,Electronics,Tablet,iOS,3,3,1,1,0.4859754055815068
+53,1,5.954385538866561,0,Female,Sydney,Sports & Outdoors,Tablet,iOS,1,4,1,1,0.4821700782269641
+45,2,4.527640983478854,0,Female,London,Home & Kitchen,Desktop,iOS,4,11,0,0,0.5337865211338269
+48,2,6.76528116198421,0,Male,Sydney,Electronics,Mobile,Windows,0,2,0,1,0.5062280451134308
+44,2,7.1834912804155175,0,Male,London,Apparel,Tablet,iOS,4,7,0,1,0.493137220747988
+56,2,6.459920103707352,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,2,2,0,1,0.4948029287265901
+22,4,6.72683274310189,0,Female,Berlin,Home & Kitchen,Mobile,Windows,2,12,0,1,0.5073177556439389
+26,2,6.720714604648205,0,Female,Sydney,Home & Kitchen,Mobile,Windows,0,7,0,1,0.5083225335858294
+25,4,6.5918246122580335,0,Male,Berlin,Beauty & Personal Care,Mobile,Windows,0,3,0,0,0.5134003198531545
+44,2,6.810825788802163,0,Female,Berlin,Apparel,Tablet,iOS,6,9,0,1,0.4776523050089647
+58,4,6.720714604648205,0,Male,Sydney,Home & Kitchen,Tablet,iOS,0,11,0,1,0.4924629122472802
+27,4,5.658471251946198,0,Male,Sydney,Sports & Outdoors,Desktop,iOS,6,8,0,0,0.515005603658135
+53,4,6.810825788802163,0,Female,Mumbai,Apparel,Mobile,Windows,1,8,1,1,0.48707119945244587
+30,5,6.908275143828988,1,Male,Berlin,Beauty & Personal Care,Mobile,Android,1,5,1,0,0.5157697832864991
+42,4,7.108874055858998,1,Male,Mumbai,Electronics,Mobile,Windows,3,11,1,1,0.5
+47,4,7.095843509837092,1,Male,Mumbai,Apparel,Mobile,Android,1,9,1,1,0.48728733501895893
+24,2,7.095843509837092,0,Female,Berlin,Apparel,Desktop,iOS,0,1,0,1,0.4841593557803037
+55,1,6.720714604648205,0,Female,Sydney,Home & Kitchen,Mobile,Windows,5,12,1,0,0.5120285111748003
+21,5,6.810825788802163,1,Male,Sydney,Apparel,Tablet,iOS,4,9,1,1,0.5
+34,2,6.459920103707352,0,Male,New York,Sports & Outdoors,Mobile,Windows,6,7,1,1,0.5
+45,2,7.2275826117324,0,Male,Sydney,Beauty & Personal Care,Tablet,iOS,3,3,0,1,0.5
+43,5,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,6,10,0,1,0.49421532249552214
+59,4,7.1834912804155175,1,Male,New York,Apparel,Tablet,iOS,3,7,1,0,0.5132416329914067
+30,2,6.459920103707352,0,Male,London,Sports & Outdoors,Tablet,iOS,4,8,1,1,0.5
+61,2,4.787408405976297,0,Male,Mumbai,Beauty & Personal Care,Mobile,Windows,5,8,1,0,0.5188659690649688
+18,1,4.527640983478854,0,Female,London,Home & Kitchen,Tablet,iOS,5,2,1,0,0.5304164233496415
+20,1,7.149060896922205,0,Female,New York,Beauty & Personal Care,Tablet,iOS,3,3,1,1,0.4946366356549483
+20,2,6.685124096384656,0,Male,London,Sports & Outdoors,Desktop,iOS,3,1,0,1,0.5
+25,1,4.527640983478854,0,Male,Sydney,Home & Kitchen,Desktop,iOS,2,5,1,0,0.5495943881133893
+54,1,7.172532015712284,0,Female,New York,Apparel,Tablet,iOS,6,2,1,1,0.4854874572524713
+30,5,5.912448395678571,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,6,10,0,1,0.5052056890354171
+33,4,5.499746864955492,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,0,7,1,0,0.5217480438046495
+56,4,4.527640983478854,0,Female,Sydney,Home & Kitchen,Tablet,iOS,3,3,1,0,0.5090975679765128
+22,3,6.935312078553008,0,Male,Mumbai,Electronics,Mobile,Android,6,5,0,1,0.5
+18,3,7.1834912804155175,1,Female,Berlin,Apparel,Tablet,iOS,5,8,1,1,0.49025988777679513
+39,3,6.76528116198421,0,Female,Berlin,Electronics,Mobile,Windows,5,5,0,1,0.4904175364063656
+38,5,5.912448395678571,0,Male,Mumbai,Home & Kitchen,Tablet,iOS,1,3,0,1,0.5052028574668648
+19,2,6.466051407286527,0,Female,Sydney,Electronics,Mobile,Windows,0,3,0,1,0.5058623730631179
+45,5,7.280449230759757,1,Male,Sydney,Home & Kitchen,Tablet,iOS,0,12,0,0,0.5110397855973132
+21,5,6.466051407286527,0,Male,Mumbai,Electronics,Mobile,Android,3,2,0,0,0.5110754741482604
+49,4,5.954385538866561,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,6,6,1,1,0.48481124066602854
+24,2,7.095843509837092,0,Male,Sydney,Apparel,Tablet,iOS,2,1,0,1,0.49269901991553
+41,1,6.466051407286527,0,Female,New York,Electronics,Desktop,iOS,5,4,1,1,0.5
+21,2,4.787408405976297,0,Female,Sydney,Beauty & Personal Care,Mobile,Android,4,1,0,0,0.5166678890533364
+45,1,6.466051407286527,0,Male,Sydney,Electronics,Desktop,iOS,0,1,1,0,0.5110254207325117
+31,2,5.954385538866561,0,Male,New York,Sports & Outdoors,Mobile,Windows,1,4,0,0,0.5121058018808436
+32,1,7.2275826117324,0,Female,London,Beauty & Personal Care,Mobile,Windows,4,10,1,1,0.5
+48,3,6.908275143828988,0,Male,Sydney,Beauty & Personal Care,Desktop,iOS,1,12,0,1,0.49223663927624567
+36,3,7.149060896922205,1,Female,Berlin,Beauty & Personal Care,Tablet,iOS,6,7,0,1,0.5059355611815373
+18,4,7.280449230759757,1,Female,New York,Home & Kitchen,Tablet,iOS,2,8,0,0,0.5145302626181818
+29,2,6.810825788802163,0,Male,New York,Apparel,Tablet,iOS,6,8,1,1,0.5
+63,5,5.912448395678571,0,Female,New York,Home & Kitchen,Mobile,Windows,0,2,1,1,0.5
+41,1,6.908275143828988,0,Female,Mumbai,Beauty & Personal Care,Desktop,iOS,5,12,0,1,0.4862998149832113
+51,5,7.172532015712284,1,Male,London,Apparel,Tablet,iOS,4,3,1,1,0.4920869728488903
+30,2,6.5918246122580335,0,Female,Mumbai,Beauty & Personal Care,Mobile,Android,4,9,0,1,0.5
+33,3,7.2275826117324,1,Female,Mumbai,Beauty & Personal Care,Desktop,iOS,6,1,1,1,0.5086967171928172
+59,3,7.095843509837092,0,Male,London,Apparel,Desktop,iOS,6,4,0,1,0.49161518198415843
+38,1,6.720714604648205,0,Male,Berlin,Home & Kitchen,Mobile,Android,0,4,0,0,0.5088421547131909
+57,2,5.954385538866561,0,Female,London,Sports & Outdoors,Mobile,Windows,6,1,0,1,0.5
+47,3,6.685124096384656,0,Female,Sydney,Sports & Outdoors,Desktop,iOS,3,10,1,1,0.49123543140281134
+49,1,6.810825788802163,0,Female,Mumbai,Apparel,Mobile,Windows,3,8,1,1,0.5
+18,5,6.72683274310189,1,Female,New York,Home & Kitchen,Desktop,iOS,4,2,0,0,0.5691862303715891
+20,1,7.108874055858998,0,Male,New York,Electronics,Desktop,iOS,0,12,1,0,0.5220539637143807
+44,1,6.466051407286527,0,Male,Mumbai,Electronics,Mobile,Windows,6,4,0,1,0.5
+24,5,5.954385538866561,0,Female,New York,Sports & Outdoors,Tablet,iOS,1,10,1,0,0.5352067037663818
+25,3,6.76528116198421,0,Female,Mumbai,Electronics,Mobile,Android,0,3,0,1,0.5
+57,1,5.954385538866561,0,Male,Sydney,Sports & Outdoors,Desktop,iOS,2,3,1,1,0.5
+37,2,4.527640983478854,0,Female,New York,Home & Kitchen,Mobile,Windows,4,2,1,0,0.5545946470751099
+40,2,6.720714604648205,0,Male,New York,Home & Kitchen,Tablet,iOS,4,12,1,1,0.5072449259925607
+46,5,6.76528116198421,1,Male,Mumbai,Electronics,Tablet,iOS,5,8,1,1,0.46892871480494375
+35,2,6.908275143828988,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,0,2,1,1,0.48618275910840164
+49,4,5.954385538866561,0,Female,Berlin,Sports & Outdoors,Mobile,Android,2,11,0,1,0.487794851698483
+51,3,5.912448395678571,0,Female,London,Home & Kitchen,Mobile,Android,6,7,1,1,0.48627100650074406
+20,5,6.720714604648205,1,Female,Mumbai,Home & Kitchen,Tablet,iOS,5,2,0,0,0.5164944180175767
+41,2,7.163760908573366,0,Female,New York,Electronics,Tablet,iOS,6,5,1,1,0.4941534441517952
+48,3,5.658471251946198,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,2,3,0,1,0.5
+64,2,7.163760908573366,0,Female,Sydney,Electronics,Mobile,Android,3,12,0,1,0.5
+25,4,6.76528116198421,0,Female,Berlin,Electronics,Desktop,iOS,0,9,1,1,0.5
+52,2,6.099331917976989,0,Male,Sydney,Apparel,Mobile,Android,3,10,1,1,0.4924405330762354
+18,2,6.466051407286527,0,Male,Sydney,Electronics,Tablet,iOS,4,9,0,0,0.5139692700724394
+40,2,6.685124096384656,0,Female,Berlin,Sports & Outdoors,Mobile,Android,4,9,0,1,0.4934903127294662
+44,5,7.2275826117324,1,Male,Mumbai,Beauty & Personal Care,Mobile,Android,0,1,0,0,0.5110172259608416
+25,2,7.280449230759757,0,Male,Sydney,Home & Kitchen,Mobile,Windows,4,6,0,0,0.5229285288992904
+63,5,6.935312078553008,1,Male,Mumbai,Electronics,Mobile,Windows,2,9,0,1,0.5
+41,4,5.658471251946198,0,Female,Mumbai,Sports & Outdoors,Mobile,Android,5,1,0,1,0.4935052508573379
+54,4,7.163760908573366,1,Male,Mumbai,Electronics,Mobile,Windows,5,12,1,1,0.4929637499584128
+22,4,5.499746864955492,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,0,11,1,0,0.5318197560610779
+58,1,6.810825788802163,0,Male,London,Apparel,Tablet,iOS,5,6,1,0,0.512731727679476
+25,5,6.76528116198421,1,Female,Sydney,Electronics,Tablet,iOS,2,7,1,0,0.5124693524125684
+54,5,6.908275143828988,1,Female,London,Beauty & Personal Care,Tablet,iOS,2,8,0,1,0.48104443770279387
+31,1,6.810825788802163,0,Female,London,Apparel,Mobile,Android,2,11,1,1,0.48144158906857787
+20,3,7.1834912804155175,1,Female,Berlin,Apparel,Mobile,Android,3,3,0,1,0.5079997035657889
+37,1,6.720714604648205,0,Female,Berlin,Home & Kitchen,Mobile,Windows,6,12,0,1,0.5
+53,1,6.5918246122580335,0,Female,Mumbai,Beauty & Personal Care,Tablet,iOS,4,6,1,1,0.4853715115033456
+51,2,5.658471251946198,0,Male,New York,Sports & Outdoors,Tablet,iOS,2,5,0,1,0.5
+28,2,5.499746864955492,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,5,5,0,0,0.5189577689765686
+59,5,6.685124096384656,1,Female,Sydney,Sports & Outdoors,Tablet,iOS,2,9,0,0,0.5136887474240815
+22,1,7.2275826117324,0,Male,Sydney,Beauty & Personal Care,Desktop,iOS,1,1,1,1,0.5055036222731336
+23,5,6.099331917976989,0,Male,Mumbai,Apparel,Mobile,Windows,4,12,1,0,0.5297420877654745
+25,5,7.2275826117324,1,Male,New York,Beauty & Personal Care,Mobile,Windows,1,8,1,0,0.5248055718588654
+26,2,6.935312078553008,0,Male,Berlin,Electronics,Mobile,Android,2,5,1,1,0.5
+62,4,6.459920103707352,0,Male,Mumbai,Sports & Outdoors,Tablet,iOS,1,5,1,1,0.47203421298181575
+35,1,5.658471251946198,0,Male,Sydney,Sports & Outdoors,Desktop,iOS,3,8,0,1,0.5063916634425212
+43,3,6.810825788802163,0,Female,Sydney,Apparel,Tablet,iOS,0,11,1,1,0.4845554119213826
+55,4,6.466051407286527,0,Female,New York,Electronics,Mobile,Windows,3,5,1,1,0.5
+29,3,6.72683274310189,0,Male,Mumbai,Home & Kitchen,Desktop,iOS,0,8,1,1,0.5
+22,4,6.459920103707352,0,Male,Mumbai,Sports & Outdoors,Mobile,Windows,0,2,1,0,0.5102110844161549
+37,1,6.72683274310189,0,Female,London,Home & Kitchen,Desktop,iOS,3,3,1,1,0.4944497691146834
+46,1,5.912448395678571,0,Male,New York,Home & Kitchen,Desktop,iOS,0,5,1,0,0.519782099251566
+25,3,7.2275826117324,1,Female,Berlin,Beauty & Personal Care,Tablet,iOS,1,5,1,0,0.5123091363099144
+45,5,5.658471251946198,0,Female,Berlin,Sports & Outdoors,Tablet,iOS,1,10,1,1,0.5
+34,5,6.810825788802163,1,Female,London,Apparel,Mobile,Windows,6,10,1,1,0.4846196386709027
+47,3,6.5918246122580335,0,Male,London,Beauty & Personal Care,Desktop,iOS,1,9,0,1,0.4893098047702219
+28,2,6.466051407286527,0,Male,Sydney,Electronics,Mobile,Windows,6,3,1,0,0.5099986280229508
+51,4,5.954385538866561,0,Female,Mumbai,Sports & Outdoors,Tablet,iOS,5,6,0,1,0.4902231645072158
+34,5,6.099331917976989,0,Female,London,Apparel,Mobile,Windows,4,8,0,1,0.5081684452813842
+35,2,5.912448395678571,0,Female,Berlin,Home & Kitchen,Tablet,iOS,3,2,0,1,0.4876177528116263
+20,2,7.149060896922205,0,Male,Mumbai,Beauty & Personal Care,Mobile,Windows,0,10,1,0,0.5105155532320705
+52,2,7.095843509837092,0,Male,New York,Apparel,Tablet,iOS,1,9,1,1,0.5
+58,2,6.5918246122580335,0,Male,London,Beauty & Personal Care,Tablet,iOS,6,11,1,1,0.5
+42,3,6.810825788802163,0,Male,Sydney,Apparel,Mobile,Windows,4,4,0,1,0.5083662979386554
+29,1,7.163760908573366,0,Male,Berlin,Electronics,Mobile,Android,5,10,1,1,0.5
+34,1,6.685124096384656,0,Male,New York,Sports & Outdoors,Desktop,iOS,2,4,1,1,0.5
+30,5,6.099331917976989,0,Female,Mumbai,Apparel,Tablet,iOS,0,7,1,1,0.5
+18,2,6.76528116198421,0,Male,Berlin,Electronics,Desktop,iOS,4,11,1,0,0.5224997711388382
+27,4,7.108874055858998,1,Male,Sydney,Electronics,Desktop,iOS,0,7,0,1,0.5
+44,1,6.935312078553008,0,Female,Sydney,Electronics,Mobile,Windows,6,6,1,1,0.5066253673798525
+42,3,6.810825788802163,0,Male,Sydney,Apparel,Mobile,Android,1,6,1,1,0.5
+55,5,7.280449230759757,1,Female,Sydney,Home & Kitchen,Mobile,Windows,1,3,0,0,0.5288697004762646
+62,1,7.095843509837092,0,Female,London,Apparel,Desktop,iOS,4,1,1,1,0.47773449514615685
+46,2,5.954385538866561,0,Female,London,Sports & Outdoors,Mobile,Windows,5,10,0,1,0.5
+24,4,5.499746864955492,0,Female,New York,Sports & Outdoors,Mobile,Android,3,11,0,0,0.510636678185611
+18,1,7.149060896922205,0,Female,Sydney,Beauty & Personal Care,Mobile,Android,5,7,0,1,0.5
+39,3,4.527640983478854,0,Male,London,Home & Kitchen,Mobile,Android,5,7,0,1,0.5
+36,5,4.527640983478854,0,Male,New York,Home & Kitchen,Desktop,iOS,3,7,1,0,0.5246024245628822
+18,3,4.787408405976297,0,Male,Mumbai,Beauty & Personal Care,Desktop,iOS,3,1,1,0,0.5532183266581806
+34,5,7.2275826117324,1,Female,Sydney,Beauty & Personal Care,Tablet,iOS,2,11,1,0,0.516013640712109
+21,3,6.908275143828988,0,Female,New York,Beauty & Personal Care,Desktop,iOS,6,2,0,1,0.5074356561900212
+46,3,6.720714604648205,0,Male,Sydney,Home & Kitchen,Mobile,Windows,2,5,1,1,0.5
+41,3,7.149060896922205,1,Female,New York,Beauty & Personal Care,Tablet,iOS,6,11,0,1,0.5
+42,1,6.76528116198421,0,Male,Sydney,Electronics,Tablet,iOS,3,2,1,0,0.5113385229986185
+39,4,7.172532015712284,1,Female,Berlin,Apparel,Desktop,iOS,6,8,0,1,0.5
+52,5,6.720714604648205,1,Male,New York,Home & Kitchen,Tablet,iOS,1,2,0,0,0.5368973310522661
+40,1,7.163760908573366,0,Male,London,Electronics,Mobile,Windows,1,8,1,1,0.5
+55,2,5.499746864955492,0,Female,London,Sports & Outdoors,Tablet,iOS,2,4,0,1,0.5
+35,5,7.163760908573366,1,Female,Berlin,Electronics,Tablet,iOS,5,12,0,0,0.5267262079642311
+23,3,6.810825788802163,0,Male,Berlin,Apparel,Mobile,Android,5,11,0,1,0.5
+32,5,4.527640983478854,0,Female,New York,Home & Kitchen,Mobile,Windows,3,10,0,0,0.5298654581093714
+64,1,6.5918246122580335,0,Male,Berlin,Beauty & Personal Care,Mobile,Android,4,2,1,1,0.48872262522144055
+38,5,7.163760908573366,1,Female,Mumbai,Electronics,Tablet,iOS,5,2,0,1,0.5066008823367082
+31,3,7.108874055858998,1,Male,New York,Electronics,Tablet,iOS,3,5,1,1,0.5
+21,5,7.1834912804155175,1,Male,New York,Apparel,Mobile,Windows,2,8,1,0,0.5201174752853008
+28,1,6.685124096384656,0,Male,Mumbai,Sports & Outdoors,Desktop,iOS,5,12,0,1,0.5
+62,5,7.095843509837092,1,Male,Mumbai,Apparel,Mobile,Android,5,5,1,1,0.5
+47,5,7.108874055858998,1,Male,Berlin,Electronics,Tablet,iOS,5,4,0,1,0.5
+55,2,6.935312078553008,0,Female,Mumbai,Electronics,Mobile,Android,5,5,0,1,0.48085572057859527
+20,3,6.459920103707352,0,Male,Mumbai,Sports & Outdoors,Desktop,iOS,3,1,0,0,0.5177602495532233
+55,1,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Desktop,iOS,6,3,0,1,0.5
+33,2,7.172532015712284,0,Male,Sydney,Apparel,Mobile,Windows,4,10,1,1,0.5069329328615108
+53,1,7.280449230759757,0,Female,Mumbai,Home & Kitchen,Tablet,iOS,6,5,1,1,0.4863309213275685
+61,1,7.149060896922205,0,Female,London,Beauty & Personal Care,Mobile,Windows,3,7,0,1,0.5
+29,2,6.466051407286527,0,Male,Sydney,Electronics,Mobile,Android,4,8,0,0,0.5092348735196826
+45,1,7.108874055858998,0,Male,Mumbai,Electronics,Desktop,iOS,1,4,1,1,0.5
+18,3,7.108874055858998,1,Female,Berlin,Electronics,Tablet,iOS,6,4,0,1,0.5
+51,3,6.459920103707352,0,Female,Berlin,Sports & Outdoors,Mobile,Android,3,7,1,1,0.4843009819759461
+37,1,4.527640983478854,0,Female,Sydney,Home & Kitchen,Mobile,Android,4,1,0,0,0.5178859896544437
+43,2,6.76528116198421,0,Female,Sydney,Electronics,Mobile,Android,4,12,0,1,0.5
+43,1,7.163760908573366,0,Female,Sydney,Electronics,Tablet,iOS,2,8,1,1,0.5
+59,5,7.095843509837092,1,Female,Berlin,Apparel,Tablet,iOS,3,3,0,0,0.5171289241894576
+27,3,6.720714604648205,0,Female,New York,Home & Kitchen,Tablet,iOS,3,1,1,1,0.5
+27,5,6.5918246122580335,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,1,1,0,1,0.5073786140073279
+36,1,6.466051407286527,0,Male,London,Electronics,Mobile,Android,6,12,0,1,0.5
+43,1,5.658471251946198,0,Male,London,Sports & Outdoors,Tablet,iOS,2,4,0,1,0.5
+26,4,7.1834912804155175,1,Female,New York,Apparel,Tablet,iOS,2,3,0,0,0.510388261282314
+60,5,6.76528116198421,1,Female,Sydney,Electronics,Desktop,iOS,4,10,1,0,0.5327180791740348
+58,5,6.5918246122580335,0,Male,London,Beauty & Personal Care,Mobile,Android,2,2,0,1,0.48843534081043755
+34,2,7.108874055858998,0,Female,London,Electronics,Mobile,Android,1,4,1,1,0.48569345220773863
+21,1,6.459920103707352,0,Male,New York,Sports & Outdoors,Mobile,Android,4,6,0,0,0.5135725510575134
+55,1,5.499746864955492,0,Female,Sydney,Sports & Outdoors,Mobile,Android,0,2,1,1,0.505988622136243
+43,1,7.2275826117324,0,Male,London,Beauty & Personal Care,Tablet,iOS,0,1,0,1,0.5
+40,5,7.280449230759757,1,Female,Berlin,Home & Kitchen,Tablet,iOS,4,10,1,0,0.5496757824969891
+18,1,6.5918246122580335,0,Male,Berlin,Beauty & Personal Care,Tablet,iOS,2,12,0,0,0.510022914910406
+36,3,6.76528116198421,0,Female,New York,Electronics,Desktop,iOS,1,7,1,1,0.5
+52,4,7.280449230759757,1,Male,London,Home & Kitchen,Tablet,iOS,3,6,1,0,0.5099132865273843
+22,1,7.172532015712284,0,Male,Berlin,Apparel,Tablet,iOS,2,8,0,1,0.5
+24,5,6.5918246122580335,0,Female,New York,Beauty & Personal Care,Tablet,iOS,2,1,1,0,0.512932345826428
+56,2,6.459920103707352,0,Female,London,Sports & Outdoors,Tablet,iOS,3,6,0,1,0.4787571481793972
+50,3,6.76528116198421,0,Male,New York,Electronics,Mobile,Windows,0,6,0,1,0.5
+60,1,6.685124096384656,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,6,8,1,1,0.48738489128506135
+39,3,7.1834912804155175,1,Male,New York,Apparel,Mobile,Android,0,7,1,1,0.4932860431158277
+41,2,5.954385538866561,0,Female,New York,Sports & Outdoors,Mobile,Android,4,6,1,1,0.5
+55,5,5.954385538866561,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,3,11,0,1,0.47690857432710976
+34,1,5.658471251946198,0,Female,Sydney,Sports & Outdoors,Mobile,Windows,2,9,1,1,0.5
+57,4,6.72683274310189,0,Male,Berlin,Home & Kitchen,Tablet,iOS,1,2,0,1,0.4817488054794913
+42,3,6.099331917976989,0,Male,Berlin,Apparel,Tablet,iOS,4,1,1,1,0.4929203901448632
+39,5,6.5918246122580335,0,Female,London,Beauty & Personal Care,Tablet,iOS,6,1,0,1,0.48863292606496883
+49,5,7.2275826117324,1,Female,Berlin,Beauty & Personal Care,Tablet,iOS,0,8,0,0,0.5117908771437267
+48,2,4.787408405976297,0,Male,Berlin,Beauty & Personal Care,Tablet,iOS,2,11,1,1,0.5
+27,5,7.149060896922205,1,Male,New York,Beauty & Personal Care,Mobile,Windows,5,2,1,0,0.5398019622730476
+29,3,5.658471251946198,0,Male,New York,Sports & Outdoors,Tablet,iOS,1,2,0,0,0.5174974413113056
+45,1,6.685124096384656,0,Female,London,Sports & Outdoors,Tablet,iOS,6,3,1,1,0.4800063402114722
+22,2,7.280449230759757,0,Male,Sydney,Home & Kitchen,Tablet,iOS,6,1,1,1,0.5
+44,5,5.912448395678571,0,Male,New York,Home & Kitchen,Mobile,Windows,1,12,0,1,0.5056212025065838
+47,3,7.108874055858998,1,Female,Sydney,Electronics,Mobile,Windows,2,1,1,1,0.5053737503859584
+27,3,7.095843509837092,0,Female,Berlin,Apparel,Desktop,iOS,3,1,1,1,0.4921125404047051
+33,4,6.685124096384656,0,Female,Mumbai,Sports & Outdoors,Mobile,Windows,5,11,1,1,0.5
+22,5,7.163760908573366,1,Male,Mumbai,Electronics,Mobile,Android,1,3,1,1,0.5085182800931428
+26,2,6.466051407286527,0,Male,Berlin,Electronics,Tablet,iOS,1,12,1,1,0.5
+57,5,5.954385538866561,0,Female,Mumbai,Sports & Outdoors,Mobile,Windows,1,2,0,1,0.5
+35,1,6.76528116198421,0,Female,Mumbai,Electronics,Mobile,Windows,6,1,1,1,0.4903589658533978
+51,4,5.912448395678571,0,Female,Mumbai,Home & Kitchen,Mobile,Android,5,9,0,1,0.49003400405499964
+20,2,5.912448395678571,0,Female,Sydney,Home & Kitchen,Tablet,iOS,1,11,0,1,0.5
+49,4,6.099331917976989,0,Male,New York,Apparel,Desktop,iOS,6,6,1,1,0.4915377986339767
+19,4,5.954385538866561,0,Male,Mumbai,Sports & Outdoors,Desktop,iOS,1,6,1,0,0.5270217478017711
+31,4,7.163760908573366,1,Male,New York,Electronics,Desktop,iOS,3,7,1,0,0.5298789657729709
+59,4,5.912448395678571,0,Female,London,Home & Kitchen,Mobile,Windows,5,4,1,1,0.48940923954128257
+62,3,6.720714604648205,0,Male,Mumbai,Home & Kitchen,Tablet,iOS,5,5,0,1,0.48680215965823287
+49,2,7.172532015712284,0,Male,Mumbai,Apparel,Desktop,iOS,5,9,1,1,0.5
+25,5,6.720714604648205,1,Male,London,Home & Kitchen,Desktop,iOS,3,9,0,0,0.5126643619962055
+18,2,7.280449230759757,0,Male,Sydney,Home & Kitchen,Desktop,iOS,3,5,1,0,0.5145306956936092
+60,2,6.908275143828988,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,6,2,0,1,0.4775176267043482
+26,5,6.72683274310189,1,Male,Sydney,Home & Kitchen,Mobile,Windows,4,1,1,0,0.5344825012724398
+63,2,7.172532015712284,0,Female,New York,Apparel,Tablet,iOS,3,3,0,1,0.47924682420133297
+37,4,6.76528116198421,0,Male,Mumbai,Electronics,Tablet,iOS,6,8,1,1,0.49039542249884216
+28,4,6.810825788802163,0,Male,Mumbai,Apparel,Mobile,Windows,6,2,1,1,0.5
+22,4,6.099331917976989,0,Female,New York,Apparel,Desktop,iOS,2,9,1,0,0.5097250170431961
+58,5,7.163760908573366,1,Female,Berlin,Electronics,Desktop,iOS,0,11,1,1,0.507630913106995
+18,5,6.810825788802163,1,Female,Berlin,Apparel,Mobile,Windows,6,7,1,0,0.525261737745187
+61,3,6.908275143828988,0,Male,New York,Beauty & Personal Care,Desktop,iOS,5,10,0,1,0.48932429056314913
+40,1,6.5918246122580335,0,Male,London,Beauty & Personal Care,Tablet,iOS,4,6,1,1,0.5
+62,2,6.76528116198421,0,Female,Mumbai,Electronics,Desktop,iOS,2,3,0,1,0.47764207105786627
+34,1,4.787408405976297,0,Female,Mumbai,Beauty & Personal Care,Tablet,iOS,4,8,0,0,0.512951526574348
+43,4,7.172532015712284,1,Male,London,Apparel,Mobile,Windows,6,9,0,1,0.4618923246723003
+29,5,6.72683274310189,1,Male,London,Home & Kitchen,Tablet,iOS,2,6,0,1,0.48316981135198456
+33,5,6.720714604648205,1,Female,Sydney,Home & Kitchen,Mobile,Android,3,1,1,0,0.5164918049244667
+56,1,7.1834912804155175,0,Female,London,Apparel,Tablet,iOS,0,1,1,1,0.47821175764568874
+53,4,7.149060896922205,1,Female,Sydney,Beauty & Personal Care,Tablet,iOS,3,3,1,0,0.5192412569849805
+32,5,6.935312078553008,1,Male,Sydney,Electronics,Mobile,Android,5,12,0,1,0.5
+55,4,7.163760908573366,1,Female,Sydney,Electronics,Tablet,iOS,0,1,1,1,0.5
+56,1,6.908275143828988,0,Female,New York,Beauty & Personal Care,Desktop,iOS,5,7,0,1,0.4882561410954417
+49,5,5.912448395678571,0,Female,London,Home & Kitchen,Mobile,Windows,5,12,1,1,0.48210470549268747
+46,4,6.466051407286527,0,Male,Mumbai,Electronics,Mobile,Android,0,8,0,1,0.48373779873756667
+38,3,4.527640983478854,0,Female,Sydney,Home & Kitchen,Mobile,Windows,4,12,1,0,0.5341968004773633
+20,3,6.466051407286527,0,Male,Berlin,Electronics,Mobile,Android,6,12,0,1,0.5
+56,5,6.720714604648205,1,Female,London,Home & Kitchen,Desktop,iOS,6,5,1,1,0.5
+21,5,6.908275143828988,1,Female,Berlin,Beauty & Personal Care,Tablet,iOS,1,1,1,0,0.5336028943728252
+39,5,6.466051407286527,0,Male,London,Electronics,Tablet,iOS,4,8,1,1,0.4907908440608521
+45,4,7.280449230759757,1,Male,Mumbai,Home & Kitchen,Mobile,Android,6,3,1,1,0.4883322101337987
+42,2,4.787408405976297,0,Female,Sydney,Beauty & Personal Care,Desktop,iOS,6,1,1,0,0.5280016753971923
+61,2,7.280449230759757,0,Female,Sydney,Home & Kitchen,Tablet,iOS,5,7,0,1,0.49115759499630723
+42,2,6.5918246122580335,0,Male,Sydney,Beauty & Personal Care,Tablet,iOS,3,11,0,1,0.5
+51,5,6.935312078553008,1,Female,Mumbai,Electronics,Tablet,iOS,4,10,1,0,0.5170091070541245
+64,1,7.280449230759757,0,Female,Berlin,Home & Kitchen,Tablet,iOS,1,8,0,1,0.47286439494275945
+45,2,6.685124096384656,0,Male,Sydney,Sports & Outdoors,Mobile,Windows,6,4,0,1,0.5
+44,5,6.459920103707352,0,Male,Berlin,Sports & Outdoors,Mobile,Windows,1,1,0,1,0.5
+25,4,7.172532015712284,1,Male,Berlin,Apparel,Tablet,iOS,0,11,0,1,0.4793966137469157
+35,2,6.76528116198421,0,Female,Berlin,Electronics,Mobile,Android,5,6,1,1,0.4900574107173333
+37,3,5.499746864955492,0,Female,London,Sports & Outdoors,Tablet,iOS,0,4,0,0,0.5125580082615524
+34,5,6.5918246122580335,0,Female,New York,Beauty & Personal Care,Mobile,Windows,4,12,0,0,0.5278367643728481
+54,1,5.954385538866561,0,Male,London,Sports & Outdoors,Tablet,iOS,3,9,0,1,0.48903668151945934
+32,4,6.76528116198421,0,Female,Mumbai,Electronics,Tablet,iOS,1,4,0,1,0.49338995069408026
+56,5,6.935312078553008,1,Female,New York,Electronics,Mobile,Android,3,6,0,0,0.541565428734266
+58,1,6.76528116198421,0,Male,New York,Electronics,Mobile,Android,2,10,1,1,0.5
+64,3,6.76528116198421,0,Female,Sydney,Electronics,Tablet,iOS,1,11,0,1,0.4851972318332195
+58,1,6.72683274310189,0,Female,Mumbai,Home & Kitchen,Mobile,Android,2,10,0,1,0.49026932749568913
+25,3,4.787408405976297,0,Female,Mumbai,Beauty & Personal Care,Desktop,iOS,4,7,1,0,0.5429541890567856
+45,5,7.108874055858998,1,Male,Berlin,Electronics,Tablet,iOS,5,4,0,1,0.5
+55,5,7.2275826117324,1,Female,New York,Beauty & Personal Care,Desktop,iOS,4,11,0,0,0.542917665195599
+41,4,5.912448395678571,0,Male,Sydney,Home & Kitchen,Mobile,Android,4,12,1,1,0.5
+47,1,7.163760908573366,0,Female,London,Electronics,Mobile,Windows,1,6,0,1,0.5
+49,3,6.099331917976989,0,Female,Berlin,Apparel,Desktop,iOS,1,2,1,1,0.48209185382877856
+50,1,4.527640983478854,0,Male,New York,Home & Kitchen,Desktop,iOS,6,6,1,0,0.5462606204628471
+40,1,7.1834912804155175,0,Male,Sydney,Apparel,Mobile,Windows,2,1,1,1,0.5
+61,5,6.459920103707352,0,Female,Mumbai,Sports & Outdoors,Mobile,Android,5,12,1,1,0.4773445363521827
+37,4,5.912448395678571,0,Female,Sydney,Home & Kitchen,Tablet,iOS,4,10,1,1,0.5071505938288202
+38,1,7.280449230759757,0,Male,Mumbai,Home & Kitchen,Desktop,iOS,6,11,1,0,0.5149740868623718
+58,2,7.280449230759757,0,Male,New York,Home & Kitchen,Desktop,iOS,0,7,1,1,0.5
+40,1,6.72683274310189,0,Female,London,Home & Kitchen,Desktop,iOS,1,10,1,1,0.4913933220674073
+19,2,7.163760908573366,0,Male,London,Electronics,Tablet,iOS,3,11,1,1,0.5
+44,3,7.280449230759757,1,Female,Mumbai,Home & Kitchen,Mobile,Windows,0,10,1,1,0.5
+29,5,5.912448395678571,0,Male,Mumbai,Home & Kitchen,Mobile,Android,6,12,1,1,0.49486442398972125
+40,4,7.280449230759757,1,Male,Mumbai,Home & Kitchen,Tablet,iOS,0,2,0,1,0.4848736516845647
+41,2,7.095843509837092,0,Male,Sydney,Apparel,Desktop,iOS,5,2,1,1,0.5
+59,5,4.527640983478854,0,Male,New York,Home & Kitchen,Mobile,Windows,6,8,1,1,0.49410957744940504
+56,3,7.163760908573366,1,Male,Berlin,Electronics,Tablet,iOS,4,10,1,1,0.5060912264692141
+59,4,7.108874055858998,1,Male,Berlin,Electronics,Mobile,Android,5,9,0,1,0.5
+55,3,4.527640983478854,0,Male,Sydney,Home & Kitchen,Tablet,iOS,0,10,1,0,0.5326589478442855
+22,1,7.108874055858998,0,Male,Mumbai,Electronics,Mobile,Android,5,1,1,1,0.5
+56,1,4.527640983478854,0,Male,Berlin,Home & Kitchen,Tablet,iOS,1,3,1,1,0.4918709744489459
+39,4,6.76528116198421,0,Female,Berlin,Electronics,Mobile,Android,2,11,1,1,0.48774191047857324
+41,1,7.172532015712284,0,Male,London,Apparel,Desktop,iOS,2,7,0,1,0.5
+51,2,6.810825788802163,0,Female,London,Apparel,Mobile,Android,6,3,1,1,0.48568489365014816
+46,3,6.908275143828988,0,Female,London,Beauty & Personal Care,Mobile,Android,0,3,1,1,0.49282113739168226
+48,1,6.810825788802163,0,Female,Berlin,Apparel,Desktop,iOS,3,11,0,1,0.4799787700769277
+31,1,7.2275826117324,0,Male,New York,Beauty & Personal Care,Tablet,iOS,1,9,1,1,0.5
+53,1,7.108874055858998,0,Female,London,Electronics,Tablet,iOS,2,3,0,1,0.4899426607346333
+50,3,6.908275143828988,0,Female,Mumbai,Beauty & Personal Care,Tablet,iOS,4,8,0,1,0.4796267523305474
+34,5,6.5918246122580335,0,Female,Sydney,Beauty & Personal Care,Desktop,iOS,2,5,1,1,0.5
+37,5,5.499746864955492,0,Female,London,Sports & Outdoors,Mobile,Android,1,2,1,1,0.5
+58,2,6.810825788802163,0,Male,New York,Apparel,Mobile,Windows,6,2,1,1,0.5
+43,1,5.954385538866561,0,Female,London,Sports & Outdoors,Tablet,iOS,0,3,1,1,0.5
+35,3,4.527640983478854,0,Female,Berlin,Home & Kitchen,Mobile,Windows,0,5,1,1,0.5070071234331042
+28,5,5.499746864955492,0,Male,London,Sports & Outdoors,Mobile,Android,0,7,0,1,0.5
+29,3,6.685124096384656,0,Male,Sydney,Sports & Outdoors,Mobile,Android,5,5,1,1,0.5
+58,5,6.935312078553008,1,Male,Sydney,Electronics,Desktop,iOS,3,9,0,0,0.5278864878751379
+56,5,6.908275143828988,1,Male,New York,Beauty & Personal Care,Tablet,iOS,3,12,0,0,0.5379841830794725
+44,4,7.1834912804155175,1,Female,Sydney,Apparel,Desktop,iOS,2,12,0,0,0.5135017250896451
+23,2,6.720714604648205,0,Male,New York,Home & Kitchen,Mobile,Windows,0,7,0,0,0.5258818590463384
+62,1,7.2275826117324,0,Male,Mumbai,Beauty & Personal Care,Tablet,iOS,2,3,1,1,0.4892787158328256
+56,1,6.720714604648205,0,Female,New York,Home & Kitchen,Mobile,Windows,6,4,0,0,0.5099911376123869
+63,4,7.172532015712284,1,Female,Berlin,Apparel,Tablet,iOS,4,10,1,0,0.5203256274456647
+55,1,6.810825788802163,0,Female,Sydney,Apparel,Tablet,iOS,3,4,1,1,0.4790406427337252
+26,1,7.172532015712284,0,Female,Sydney,Apparel,Mobile,Windows,3,11,1,1,0.5
+45,3,4.527640983478854,0,Male,London,Home & Kitchen,Mobile,Windows,1,9,1,0,0.5095428118132734
+39,5,6.908275143828988,1,Male,Mumbai,Beauty & Personal Care,Tablet,iOS,4,10,1,0,0.5093876280117764
+36,1,6.099331917976989,0,Male,London,Apparel,Tablet,iOS,4,3,0,1,0.49434456299472623
+20,1,7.163760908573366,0,Female,Mumbai,Electronics,Mobile,Windows,4,6,0,1,0.5
+61,2,6.720714604648205,0,Female,Mumbai,Home & Kitchen,Mobile,Windows,6,1,1,1,0.4931839692372714
+54,4,6.810825788802163,0,Male,New York,Apparel,Desktop,iOS,2,12,0,1,0.48839076499025574
+43,5,7.163760908573366,1,Male,Berlin,Electronics,Tablet,iOS,2,6,1,1,0.5
+27,2,6.466051407286527,0,Female,New York,Electronics,Desktop,iOS,2,8,0,1,0.5060785052019858
+18,5,6.76528116198421,1,Female,Mumbai,Electronics,Mobile,Android,5,6,0,1,0.5076608849476865
+23,2,7.149060896922205,0,Female,New York,Beauty & Personal Care,Desktop,iOS,1,10,0,1,0.5
+32,2,7.149060896922205,0,Male,Berlin,Beauty & Personal Care,Tablet,iOS,6,1,0,1,0.5
+31,1,7.108874055858998,0,Male,Mumbai,Electronics,Mobile,Android,1,9,0,1,0.5
+22,2,5.658471251946198,0,Male,Berlin,Sports & Outdoors,Desktop,iOS,3,1,1,0,0.5110408575411896
+22,3,4.527640983478854,0,Male,Mumbai,Home & Kitchen,Mobile,Android,2,6,1,1,0.5
+40,4,7.149060896922205,1,Male,New York,Beauty & Personal Care,Tablet,iOS,3,2,0,0,0.5243049492934063
+37,5,4.787408405976297,0,Female,London,Beauty & Personal Care,Tablet,iOS,6,3,0,0,0.5249956492274495
+60,2,7.280449230759757,0,Female,Berlin,Home & Kitchen,Mobile,Android,6,9,1,1,0.48970577163122003
+63,5,6.810825788802163,1,Female,London,Apparel,Mobile,Android,4,12,0,1,0.49065656962377413
+43,5,6.720714604648205,1,Male,New York,Home & Kitchen,Mobile,Windows,2,4,1,0,0.5213655622939942
+60,1,6.466051407286527,0,Female,New York,Electronics,Desktop,iOS,6,9,1,1,0.5
+53,2,7.095843509837092,0,Female,London,Apparel,Mobile,Android,6,1,1,1,0.47979780105927766
+36,5,5.912448395678571,0,Male,Mumbai,Home & Kitchen,Desktop,iOS,0,7,0,1,0.4923270698897994
+57,1,4.787408405976297,0,Female,London,Beauty & Personal Care,Mobile,Windows,3,6,1,0,0.5265962079542331
+20,5,6.76528116198421,1,Female,Sydney,Electronics,Tablet,iOS,2,3,1,0,0.520127443735334
+45,2,7.095843509837092,0,Male,Mumbai,Apparel,Mobile,Android,1,5,0,1,0.4916626583176631
+59,5,6.76528116198421,1,Female,Sydney,Electronics,Mobile,Windows,5,1,0,0,0.527690092067895
+21,3,6.466051407286527,0,Female,London,Electronics,Desktop,iOS,1,7,1,0,0.5091798480099011
+32,3,7.172532015712284,1,Female,Sydney,Apparel,Mobile,Android,2,1,1,1,0.5
+32,4,4.787408405976297,0,Male,Berlin,Beauty & Personal Care,Mobile,Android,1,3,0,1,0.5
+32,5,6.466051407286527,0,Male,Berlin,Electronics,Desktop,iOS,3,6,0,1,0.5
+42,4,6.099331917976989,0,Male,New York,Apparel,Desktop,iOS,1,6,1,1,0.5
+45,3,5.954385538866561,0,Male,Sydney,Sports & Outdoors,Tablet,iOS,6,8,0,1,0.5
+63,3,4.787408405976297,0,Female,Berlin,Beauty & Personal Care,Tablet,iOS,6,4,0,1,0.4902739650034916
+49,1,7.172532015712284,0,Male,Berlin,Apparel,Desktop,iOS,0,3,1,1,0.4944045345375777
+27,5,5.912448395678571,0,Female,Berlin,Home & Kitchen,Tablet,iOS,6,9,0,1,0.5
+44,5,6.466051407286527,0,Female,Sydney,Electronics,Mobile,Android,1,9,0,1,0.5
+32,3,6.099331917976989,0,Male,Berlin,Apparel,Desktop,iOS,2,12,1,1,0.5
+33,1,5.499746864955492,0,Male,New York,Sports & Outdoors,Tablet,iOS,2,4,1,0,0.5228276510825631
+20,5,6.685124096384656,1,Male,New York,Sports & Outdoors,Mobile,Android,5,10,1,0,0.5200781223574603
+62,1,5.658471251946198,0,Male,New York,Sports & Outdoors,Mobile,Windows,3,7,1,0,0.5180739699248395
+55,1,7.172532015712284,0,Female,London,Apparel,Tablet,iOS,3,11,1,1,0.4807906877126535
+39,1,6.908275143828988,0,Female,Sydney,Beauty & Personal Care,Tablet,iOS,6,2,1,1,0.4894057888881626
+20,5,5.658471251946198,0,Male,Berlin,Sports & Outdoors,Tablet,iOS,4,1,0,0,0.5455694960977298
+57,2,5.912448395678571,0,Female,Sydney,Home & Kitchen,Mobile,Android,5,1,0,1,0.49390273494306686
+37,4,7.280449230759757,1,Female,Berlin,Home & Kitchen,Mobile,Windows,3,11,1,0,0.5225934177360804
+51,3,4.527640983478854,0,Male,Sydney,Home & Kitchen,Desktop,iOS,0,7,0,0,0.5209982127597028
+60,5,7.2275826117324,1,Female,Mumbai,Beauty & Personal Care,Mobile,Windows,1,1,0,0,0.5228404033892575
+52,2,6.459920103707352,0,Male,Mumbai,Sports & Outdoors,Mobile,Windows,2,5,0,1,0.5
+41,4,7.095843509837092,1,Male,New York,Apparel,Tablet,iOS,2,7,1,1,0.5
+63,5,7.1834912804155175,1,Male,Mumbai,Apparel,Desktop,iOS,2,5,1,1,0.5
+58,2,6.5918246122580335,0,Male,Sydney,Beauty & Personal Care,Desktop,iOS,2,8,0,1,0.49181646720243927
+19,1,6.76528116198421,0,Male,Sydney,Electronics,Desktop,iOS,1,10,1,0,0.5121543064529946
+59,3,7.2275826117324,1,Male,Sydney,Beauty & Personal Care,Desktop,iOS,4,3,0,0,0.5109211934860863
