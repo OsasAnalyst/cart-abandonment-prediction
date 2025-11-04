@@ -12,7 +12,7 @@ The analysis was powered by **Python, scikit-learn, SQL (SQLite)**, and **Power 
 ## Executive Summary  
 This project analyzed a dataset of **5,000 e-commerce transactions**, with insights drawn from a **test sample of 750 sessions** used to validate the model’s performance. The goal was to understand the **drivers of abandonment**, optimize user experience, and help marketing teams act proactively instead of reacting after the fact.
 
-The **SVM model** achieved a recall of **0.72**, meaning it successfully identified most customers likely to abandon their carts, even if it slightly over-predicted risk. Precision and accuracy were moderate (around 0.51), which is acceptable given the business goal — it’s better to reach more potential abandoners than to miss them.
+The **SVM model** achieved a recall of **0.72**, meaning it successfully identified most customers likely to abandon their carts, even if it slightly over-predicted risk. Precision and accuracy were moderate (around 0.51), which is acceptable given the business goal - it’s better to reach more potential abandoners than to miss them.
 
 From the **Power BI dashboard**, key insights revealed that:
 - **London, Berlin, and Mumbai** have the highest predicted abandonment rates.  
@@ -78,7 +78,7 @@ Future improvements could include:
 - Expanding features to include browsing time, referral source, or cart value.  
 - Setting up automated retraining to track performance drift over time.  
 
-As the system matures, it can become part of a live decision-support engine — continuously learning from new customer data.
+As the system matures, it can become part of a live decision-support engine - continuously learning from new customer data.
 
 ---
 
@@ -87,7 +87,7 @@ As the system matures, it can become part of a live decision-support engine — 
 
 ├── data/
 │   ├── Cart_abandonment.db
-│   ├── model_ready_dataset.csv
+│   ├── cart_dataset.zip
 │
 ├── python_notebook/
 │   ├── cart_abandonment_analysis.ipynb
@@ -96,14 +96,13 @@ As the system matures, it can become part of a live decision-support engine — 
 │
 ├── powerbi_dashboard/
 │   ├── dashboard.pbix
+│   ├── dashboard_screenshot.png
 │   └── dax_measures.txt
 │
 ├── models/
-│   ├── model.pkl
-│   └── prediction_results.csv
-│
-├── images/
-│   └── (add screenshots here)
+│   ├── svm_model.pkl
+|   ├── preprocessor.pkl
+│   └── prediction_df.csv
 │
 ├── presentation/
 │   ├── Cart_Abandonment_Presentation.pptx
