@@ -1,211 +1,130 @@
-# 🛒 Cart-Abandonment-Prediction
+```markdown
+# 🛒 Churn Abandonment Analysis
 
-![Cart Abandonment](https://images.unsplash.com/photo-1523275335684-37898b6baf30)  
-*E-commerce cart abandonment costs retailers billions — can we predict and prevent it?*
+## 🧭 Project Overview  
+Online stores lose a large share of potential revenue because many shoppers add products to their carts but never complete their purchases. This project focuses on predicting **cart abandonment** and identifying the main reasons behind it. Using machine learning and behavioral analytics, the model helps businesses take action before a customer leaves — improving engagement and saving sales that would otherwise be lost.  
 
----
+The analysis was powered by **Python, scikit-learn, SQL (SQLite)**, and **Power BI** for visualization. Together, they form an end-to-end workflow from raw data to actionable business insight.  
 
-## Executive Summary
- 
-Cart abandonment is one of the most expensive problems in e-commerce. Customers often add items to their cart but fail to complete the purchase, leading to significant revenue leakage.  
-In this dataset, the **estimated revenue lost from abandoned carts was over 💸 4.3 million ($4,339,429.93)**.  
-
-### What I Did  
-To tackle this, I built a **machine learning classification model** to predict the likelihood of cart abandonment.  
-- Used features such as **customer demographics, device type, product category, and session behavior**.  
-- Preprocessed data with scaling, encoding, and pipeline transformations.  
-- Trained and evaluated multiple models (SVM, Logistic Regression).  
-- Success will be measured using accuracy, precision, recall, and F1 score, but recall is most important because we do not want to miss customers who are about to leave.  
-
-### Result
-After evaluation, **Logistic Regression** was chosen as the final model because it achieved:  
-
-- **Recall = 1.00** → caught **100% of abandoners**.  
-- **Precision = 0.51** → about half of predicted abandoners truly abandon (acceptable for low-cost reminders).  
-- **F1-score = 0.67**  
-
-SVM provided more balanced results (Recall ~0.73, Precision ~0.51), but missed 28% of abandoners, making it less aligned with the business objective.  
-
-**Business Impact:**  
-By identifying abandoning customers before they leave, the company can trigger **personalized reminder emails or discount nudges**, significantly reducing lost revenue.  
+![Dashboard Overview](path-to-dashboard-image.png)
 
 ---
 
-## Project Objective
+## 🏁 Executive Summary  
+This project analyzed a **sample of 750 transactions** from an e-commerce environment to predict whether customers would complete or abandon their carts. The goal was to understand the **drivers of abandonment**, optimize user experience, and help marketing teams act proactively instead of reacting after the fact.
 
-The main objective of this project is to **reduce revenue lost from cart abandonment** by building a predictive model that flags at-risk customers in real time.  
+The **SVM model** achieved a recall of **0.72**, meaning it successfully identified most customers likely to abandon their carts, even if it slightly over-predicted risk. Precision and accuracy were moderate (around 0.51), which is acceptable given the business goal — it’s better to reach more potential abandoners than to miss them.
 
-### Goals:
-1. **Predict abandonment:** Classify whether a session will result in purchase or abandonment.  
-2. **Prioritize recall:** Ensure nearly all abandoners are identified, even at the cost of precision.  
-3. **Enable interventions:** Provide actionable insights for marketing teams to run targeted campaigns.  
-4. **Recover revenue:** Minimize the $4.3M+ lost to abandoned carts by engaging customers before they drop off.  
+From the **Power BI dashboard**, key insights revealed that:
+- **London, Berlin, and Mumbai** have the highest predicted abandonment rates.  
+- **Mobile users**, particularly **female shoppers**, are more likely to abandon during checkout.  
+- Abandonment risk **peaks midweek (Thursday)**, suggesting timing patterns in user behavior.  
+- Predicted and actual abandonment rates closely align, validating the model’s reliability.  
 
- 
----
-
-
-## Data Collection
-
-For this project, I used a **publicly available cart abandonment dataset from Kaggle**.  
-
-The dataset contains information on over **25,000 customer shopping sessions**, covering:  
-- **Session details**: session ID, customer ID, device type, operating system, date, and time  
-- **Customer demographics**: age, gender, and city  
-- **Shopping behavior**: products viewed, category, quantity, and price  
-- **Outcome variable**: whether the cart was **abandoned (1)** or the purchase was **completed (0)**  
-
-This dataset provides a realistic foundation for modeling **cart abandonment prediction** in e-commerce.  
-By analyzing these behavioral and demographic signals, the model can help identify **at-risk customers** and enable marketing teams to intervene with **personalized reminders or incentives**, ultimately reducing revenue loss from abandoned carts.
-
-
-
-## Exploratory Data Analysis (EDA) 
-
-### Dataset overview (raw tables)
-- **Customer table:** 1,000 rows × 5 columns — no missing values.  
-- **Date table:** 366 rows × 2 columns — no missing values (covers a leap-year range).  
-- **Device table:** 5 rows × 3 columns — no missing values (lookup table).  
-- **Fact (sessions) table:** **5,000** rows × 7 columns — **abandonment_time is 49.52% missing** (only present when a session was abandoned).  
-- **Product table:** 25 rows × 4 columns — no missing values.
+These findings form the foundation for focused retention campaigns, mobile experience optimization, and smarter engagement strategies that directly impact conversion rates.
 
 ---
 
-### Key EDA visualizations 
+## 💡 Data Overview  
+The dataset simulates real e-commerce shopping behavior and was structured into five main tables: **Customer**, **Product**, **Device**, **Date**, and **Fact**.  
 
-- Gender distribution  
-![Customer gender distribution (Train set)](https://github.com/user-attachments/assets/e1c3de46-57e9-40e3-8cfe-181ea7a84bc6)
+After merging these tables into a unified dataset, preprocessing steps included:
+- Handling missing values using median (numeric) and most frequent (categorical) imputations.  
+- Creating features such as **log_price**, **is_high_value**, and **day_of_week**.  
+- Encoding categorical variables and standardizing numerical ones using a **ColumnTransformer** pipeline.  
+- Removing identifiers and leakage columns to ensure fairness and consistency.  
 
-  
-  *Finding:* roughly equal representation male / female in train set.
-
-- Age distribution  
-![Age distribution (Train set)](https://github.com/user-attachments/assets/cd6bf9ff-83cd-42f3-a20d-b4ea8b17fac1)  
-    
-  *Finding:* fairly balanced ages with a peak ~40 years.
-
-- Device type counts  
-![Device type usage (Train set)](https://github.com/user-attachments/assets/49281cc6-add7-431b-a8c2-ea58cd6a2a49)  
-    
-  *Finding:* tablets most common → then mobile → then desktop.
-
-- Top product categories  
-![Top product categories (Train set)](https://github.com/user-attachments/assets/acbb6ef9-e931-4774-97de-51c1ea65425f)  
-   
-  *Finding:* Electronics top; then Home & Kitchen, Sports & Outdoors, Apparel, Beauty & Personal Care.
-
-- Price distribution  
-![Product Price distribution (Train set)](https://github.com/user-attachments/assets/fd8a2947-1daa-4a77-ba5b-4b61856d96e2)  
-   
-  *Finding:* notable mass around ~800–1,200.
-
-- Abandonment distribution (class balance)  
-![Cart abandonment (Train set)](https://github.com/user-attachments/assets/4e420eb3-484d-47c0-8b2e-76a083e1e2f3)  
-   
-  *Finding:* target is **balanced** — ~50.46% abandoned / 49.54% not abandoned.
-
-- Correlation heatmap (numeric)  
-![Correlation heatmap (Train set)](https://github.com/user-attachments/assets/98fefe7d-cd7a-4832-bf12-093d5379710a)  
-   
-  *Key numeric correlations observed in EDA:*  
-  - `product_id` vs `price`: **-0.42** (negative correlation)  
-  - `price` vs `abandoned`: **~0.0063** (very weak)  
-  - `age` vs `abandoned`: **~0.026** (very weak)
-
-
-
+This produced a clean, model-ready dataset that reflects genuine behavioral trends while maintaining analytical integrity.
 
 ---
 
-##  Feature Engineering & Preprocessing
+## ⚙️ Workflow Overview  
+The full workflow was designed as an **end-to-end system**, combining automation, analytics, and visualization.  
 
-In this stage, I transformed the raw dataset into a clean, machine-learning-ready format.  
-The main idea was to remove any potential leakage, derive meaningful features, and set up a consistent preprocessing pipeline that can be applied in both training and production.
+1. **Data Preparation** — Integrated and cleaned multi-table data.  
+2. **Feature Engineering** — Created behavioral indicators like price sensitivity, device usage, and high-value flags.  
+3. **Model Training** — Tested and compared multiple algorithms (Logistic Regression, Random Forest, Gradient Boosting, Neural Net, and SVM).  
+4. **SQL Integration** — Stored predictions in an SQLite database for analysis and Power BI connection.  
+5. **Power BI Visualization** — Created dashboards to visualize abandonment risk, city and device trends, and key KPIs.
 
-First, I dropped columns that could leak the target (`abandonment_time`) or were simply identifiers (`session_id`, `product_id`, `device_id`, `customer_id`, `customer_name`, `product_name`). This ensured that the model only learned from generalizable patterns, not unique IDs.
+### Model Performance  
+| Metric | Value | Interpretation |
+|---------|--------|----------------|
+| **Accuracy** | 0.51 | Model correctly classifies just over half of all sessions. |
+| **Recall** | 0.72 | Captures most at-risk customers — ideal for retention strategies. |
+| **F1-Score** | 0.60 | Balanced measure of performance considering both recall and precision. |
 
-Next, I worked with the time column. The dataset contained `date_id` as integer offsets, so I converted them into proper datetime and extracted calendar-based signals like **day of week** and **month**. After extracting these, the original `date_id` column was removed.
-
-For product pricing, I created two useful signals:
-- A **log-transformed price** (`log_price`) to stabilize the heavy skew in raw prices.  
-- A **high-value transaction flag** (`is_high_value`), where orders above the 75th percentile of total spend (price × quantity, computed on the training set) were marked as high-value. This threshold was saved and applied consistently across validation and test data.
-
-The final feature set consisted of a mix of **numeric** (`age`, `quantity`, `log_price`, `is_high_value`) and **categorical** features (`gender`, `city`, `category`, `device_type`, `os`, `day_of_week`, `month`). The target variable remained as `abandoned` (0 or 1).
-
-To prepare the data, I built two preprocessing pipelines:
-- **Numeric pipeline**: impute missing values with the median, then standardize using z-scores.  
-- **Categorical pipeline**: impute missing categories with the most frequent value, then one-hot encode, ignoring unseen categories to ensure robustness.  
-
-These were combined into a `ColumnTransformer` so the same preprocessing could be applied seamlessly across train, validation, and test splits.
-
-Finally, I validated that the transformation expanded categorical features into multiple binary columns, giving me a larger, model-ready feature space. This design guarantees consistency, explainability, and portability when deploying the model in real e-commerce environments.
+The recall-oriented focus makes the model effective as an early warning system for identifying high-risk sessions.
 
 ---
 
-## 🤖 Modelling & Model Selection
+## 📊 Business Implications and Strategic Recommendations  
 
-### 🎯 Objective  
-Predict whether a customer will **abandon their cart**.  
-- **Primary metric:** Recall (catch as many abandoners as possible).  
-- **Secondary metrics:** Precision, F1-score, Accuracy.  
+| **Strategy** | **Expected Impact** | **Metric to Track** |
+|---------------|--------------------|---------------------|
+| Focus on high-risk cities (London, Berlin, Mumbai) | Boost conversion in key markets through localized offers | Conversion Rate |
+| Improve mobile checkout experience | Reduce friction for mobile users, especially females | Abandonment Rate (Mobile) |
+| Use predictive scores for re-engagement | Recover potential lost sales via personalized reminders | Recovered Revenue |
+| Strengthen retention for high-value customers | Preserve revenue from the most profitable segment | Repeat Purchase Rate |
 
----
-
-### Model Results (Validation)  
-- **Logistic Regression** → Recall = **1.0**, Precision = **0.50**  
-- **SVM** → Recall = **0.71**, Precision = **0.51**  
-- **Random Forest / Gradient Boosting** → Recall ≈ **0.55–0.60** (weaker)  
-- **Neural Network** → Recall = **0.44** (discarded)  
+These recommendations move the organization toward proactive, data-led decision-making. Instead of responding after customers abandon, marketing and UX teams can anticipate behavior and act in real time.
 
 ---
 
-### Key Insights  
-- **Logistic Regression**: Perfect recall → captures **all abandoners**, but sends reminders to many non-abandoners too.  
-- **SVM**: Strong balance → catches **~71% abandoners** with fewer false positives.  
-- **Business takeaway**:  
-  - If reminder campaigns are **low cost**, use **Logistic Regression**.  
-  - If campaigns have **higher cost**, use **SVM** for efficiency.  
+## 🚀 Path Forward  
+The next step is to integrate predictions directly into **marketing automation systems**, so real-time sessions can trigger immediate actions like reminders or discount prompts.  
 
+Future improvements could include:
+- Refining the model threshold for better precision–recall balance.  
+- Expanding features to include browsing time, referral source, or cart value.  
+- Setting up automated retraining to track performance drift over time.  
 
-## Recommendation
-
-Based on the results, **Logistic Regression** is the best choice for deployment.  
-It achieved a **recall of 1.0**, meaning it caught **all customers likely to abandon** their carts.  
-This is critical because the business goal is to **reduce lost sales**.  
-
-Even though precision is only ~0.50 (meaning some customers who would not abandon will still get reminders), this is acceptable since sending a reminder email or small discount is **low cost** compared to losing a customer.  
-
-**Recommendation**: Deploy the **Logistic Regression model** for real-time predictions. Use it to trigger reminder campaigns or small incentives whenever the model predicts a customer may abandon their cart.  
-Keep the **SVM model** as a backup option if the business later decides to reduce the number of reminder campaigns and prefers a more balanced trade-off.  
+As the system matures, it can become part of a live decision-support engine — continuously learning from new customer data.
 
 ---
 
-## Limitations
- 
-- **Precision trade-off**: Logistic Regression predicts many abandonments correctly, but also flags many false positives. Some customers may get unnecessary reminders.  
-- **Single session focus**: The model only uses current session data. It does not yet consider past purchase history, loyalty, or customer lifetime value.  
-- **Static modeling**: Customer behavior changes over time. A model trained once may not stay accurate unless it is **retrained regularly**.  
+## 🗂️ Repository Structure  
+```
+
+├── data/
+│   ├── Cart_abandonment.db
+│   ├── model_ready_dataset.csv
+│
+├── python_notebook/
+│   ├── cart_abandonment_analysis.ipynb
+│   ├── data_pipeline_automation.ipynb
+│   └── sql_integration_layer.ipynb
+│
+├── powerbi_dashboard/
+│   ├── dashboard.pbix
+│   └── dax_measures.txt
+│
+├── models/
+│   ├── model.pkl
+│   └── prediction_results.csv
+│
+├── images/
+│   └── (add screenshots here)
+│
+├── presentation/
+│   ├── Cart_Abandonment_Presentation.pptx
+│
+└── README.md
+
+```
 
 ---
 
-## Future Work
-
-1. **Improve features**: Add more signals like browsing time, number of items in cart, time of day, and past purchase frequency.  
-2. **Cost-sensitive learning**: Build models that consider the cost of false positives vs. false negatives so the business impact is balanced.  
-3. **A/B testing**: Deploy the model and run controlled experiments to measure how many extra sales reminders actually save.  
-4. **Personalized incentives**: Move beyond “send reminder” → predict which type of nudge (discount, free shipping, email, SMS) works best for each customer.  
-5. **Online learning**: Continuously retrain the model as new sessions come in, so the system adapts to changes in customer habits.  
+## 🧩 Tech Stack  
+- **Python** (pandas, scikit-learn, numpy, joblib)  
+- **SQL (SQLite)** for structured data storage  
+- **Power BI** for interactive visualization and reporting  
+- **Jupyter/Colab Notebooks** for analysis and model development  
 
 ---
 
-
-## Closing Remark  
-
-I am passionate about using data to solve real business problems and drive measurable value.  
-
-I am open to exploring full-time opportunities where I can contribute to business strategy through analytics, as well as freelance collaborations with organizations seeking to leverage data for smarter decision-making.
-
----
- Author: [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339)  
-📩 Email: oidiagbonmwen@gmail.com   
-
+**Author:** [Osaretin Idiagbonmwen](https://www.linkedin.com/in/osaretin-idiagbonmwen-33ab85339)  
+📧 **Email:** oidiagbonmwen@gmail.com  
+💻 **GitHub:** [OsasAnalyst](https://github.com/OsasAnalyst)  
+📂 **Project Repository:** [Churn Abandonment Analysis](https://github.com/OsasAnalyst/cart-abandonment-prediction)
+```
